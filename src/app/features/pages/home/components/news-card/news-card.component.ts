@@ -1,6 +1,6 @@
 import { Component, OnInit, OnChanges, SimpleChanges, Input, HostListener, ElementRef, ViewChild, ViewChildren, QueryList, AfterViewInit, OnDestroy } from '@angular/core';
 import { chunkArray } from '@app/core/utils/chunk-array.util';
-import { LocalizeRouterService } from '@jemys89/ngx-translate-router';
+import { LocalizeRouterService } from '@gilsdav/ngx-translate-router';
 import * as flickity from 'flickity';
 import { debounceTime, Subject } from 'rxjs';
 
@@ -191,7 +191,6 @@ export class NewsCardComponent implements OnInit, OnDestroy, AfterViewInit {
         dragEnd: (event, pointer) => {
           if (!customizeDrag) return;
           const viweportCenter = this.innerWidth / 2;
-          // console.log('viweportCenter',viweportCenter)
           this.carouselCells.forEach((element, index) => {
             const boundingClientRect =
               element.nativeElement.getBoundingClientRect();

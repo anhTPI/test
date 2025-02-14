@@ -13,6 +13,5 @@ export class DropdownDirective {
   @HostListener('click') toggleMenu() {
     this.isOpen = !this.isOpen;
     this.isMenuOpen.emit(this.isOpen);
-    console.log(`Menu status changed. Menu is now ${this.isOpen ? 'Open' : 'Closed'}`)
   }
 }

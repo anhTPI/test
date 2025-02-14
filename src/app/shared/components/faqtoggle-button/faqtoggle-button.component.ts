@@ -45,7 +45,6 @@ export class FaqtoggleButtonComponent implements OnInit, OnDestroy {
 
   // Xử lý đóng dropdown (dành cho hover)
   closeDropdown(): void {
-    console.log("vlcik")
     this.showOptions = false;
   }
 
@@ -61,13 +60,10 @@ export class FaqtoggleButtonComponent implements OnInit, OnDestroy {
   }
 
   toggleSelect(): void {
-    console.log({check: this.showOptions})
     this.showOptions = !this.showOptions;
   }
 
   onChangePage(type: string): void {
-    // console.log({"object": this._lang.getLang()})
-    // console.log({chec: this.rtLang.parser.currentLang})
     this.selectedType = type;
     this.showOptions = false;
   }

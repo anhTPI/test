@@ -14,7 +14,6 @@
         </div>
       </div>
     </section>
-    <!-- <app-alert class="z-30 hidden xl:block ml-[50px] mt-[565px] absolute"></app-alert> -->
     <section
       class="relative w-full pt-8 xl:pt-[100px] h-[500px] md:h-[700px] overflow-hidden xl:overflow-visible xl:flex-1">
       <img class="absolute top-0 left-[-100px] md:left-[-250px] xl:left-[-150px] h-64 w-64 md:h-2/3 md:w-2/3"
@@ -31,16 +30,10 @@
       class="top-[506px] md:top-[752px] xl:hidden absolute bottom-[-100px] md:bottom-[-100px] left-[10px] text-center md:left-[20px]">
       <p class="font-bold text-xs mb-2">{{ 'Button.Download' | translate }}</p>
       <app-download-app-button class="relative z-20"></app-download-app-button>
-      <!-- <div class="mr-auto w-[129px] h-[136px] flex justify-center overflow-hidden">
-        <img class="xl:mx-auto min-w-[210px] min-h-[210px]" src="assets/image/common/scroll.gif" alt="scroll">
-      </div> -->
+
     </div>
   </div>
-  <!-- <div class="mx-auto w-[129px] h-[136px] flex justify-center overflow-hidden">
-    <img class="xl:mx-auto min-w-[210px] min-h-[210px]" src="assets/image/common/scroll.gif" alt="scroll">
-  </div> -->
   <div class="mx-auto">
-  <!-- <div class="mx-auto hidden xl:block"> -->
     <img class="mx-auto w-[210px] h-[210px]" src="assets/image/common/scroll.gif" alt="scroll">
   </div>
   <section class="text-center mx-auto mt-[97px] md:mt-[127px] xl:mt-[100px]">
@@ -75,9 +68,7 @@
       <img class="title-img" src="assets/image/common/deco-g.svg" alt="deco-g">
       <p class="font-bold px-4 mb-7 md:mb-[55px] md:text-2xl xl:text-3xl">{{'Home.TitlNews'| translate }}</p>
     </div>
-    <!-- <div class="mb-4" *ngFor="let news of newsCard;">
-      <app-news-card [routerLink]="'/news/' + news.id" [date]="news.date" [title]="news.title" [slides]="newsCard"></app-news-card>
-    </div> -->
+
     <app-news-card  [news]="newsCard"></app-news-card>
 
   </section>
@@ -91,5 +82,4 @@
   <section class="mt-[50px] mb-12 text-center" id="app-download-card">
     <app-download-card></app-download-card>
   </section>
-  <!-- <app-alert class="fixed inset-x-0 bottom-0 xl:hidden z-30 flex justify-center"></app-alert> -->
 </div>

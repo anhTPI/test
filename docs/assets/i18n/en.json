@@ -1,0 +1,793 @@
+﻿{
+  "Common": {
+    "HeaderTitle": "Cathay United Bank",
+    "EventButton": "Read More",
+    "APPName": "CUB Vietnam APP"
+  },
+  "Footer": {
+    "FollowUs": "Follow Us",
+    "ContactUs": "Contact Us",
+    "BrowserHint": "Recommend using Google Chrome, Firefox, or IE11 or above for better experience.",
+    "WorkingHour1": "Working hours",
+    "WorkingHour2": "8:30-17:30(Mon-Fri)",
+    "WorkingHour3": "excluding national holidays",
+    "Phone": "Phone number",
+    "AboutUs": "About Us",
+    "CathayFinancialHoldings": "Cathay Financial Holdings",
+    "CathayUnitedBank": "Cathay United Bank",
+    "CathayUnitedBankInVietnam": "Cathay United Bank in Vietnam",
+    "Product": "Product",
+    "DigitalConsumerLoan": "Digital Consumer Loan",
+    "OtherInfo": "Other info",
+    "PrivacyPolicy": "Privacy Policy",
+    "FAQs": "FAQs",
+    "Email": "Email"
+  },
+  "Home": {
+    "TitleSmall": "Cathay Meets",
+    "TitleBig": "All Your Needs",
+    "TitlWhat": "CUB Vietnam",
+    "TitlWhatSub": "Free Fee To Duration Credit Limit, Quick Loan with CUB Vietnam",
+    "TitlHow": "How to apply",
+    "TitlHowSub": "Easy, Speedy Loan via CUB Vietnam",
+    "TitlNews": "News",
+    "TitlEvents": "Events"
+  },
+  "FAQ": {
+    "Title": "FAQs",
+    "TitleSub1": "The information below is for reference only.",
+    "TitleSub2": "If you have any concerns, please refer to the Signed Contract or contact the hotline at",
+    "TitleSub3": "028 3622 6836.",
+    "Link": "LINK",
+    "Here": "here",
+    "RegisterAndUseCreditLimit":"Register and Use Credit Limit",
+    "MonthlyPayment":"Monthly Payment",
+    "PaymentNotice":"Payment Notice",
+    "Others":"Others",
+    "Question": {
+      "Activated": "How long and how do I activate my Credit Limit?",
+      "HowToUse": "How to use Credit Limit?",
+      "Amount": "How much Credit Limit amount that Cathay United Bank will approve?",
+      "UsingTime": "How long is my Credit Limit using?",
+      "EMICalculationFormula": "What is Monthly Repayment?",
+      "RepaymentDueDateAmount": "How do I check my loan Due Date and Monthly Repayment Amount?",
+      "InterestCalculationFormula": "Tariffs and Interest for using Credit Limit?",
+      "RepaymentChannels": "How to pay the Loan via which channels?",
+      "LatePayment": "How will Late Monthly Repayment affect?",
+      "ShortPayment": "How will Lacking of Monthly Payment impact on?",
+      "OverPayment": "Can I Pay More Than the Monthly Payment?",
+      "EarlyPayment": "Can I Make Monthly Repayment amount before due date?",
+      "EarlyTerminationTerm": "How to Pay Off Total Outstanding Balance before due date?",
+      "PartialPayment": "Can I make Early Partial Payment for my Credit Loan?",
+      "UserGuide": "User Guideline CUB Vietnam App?",
+      "CustomerInquiriesHandlingPrinciples": "How long does it take the bank to receive and process consumer questions and complaints?"
+    },
+    "Answer": {
+      "Activated": "Within 7 days from the the time Credit Limit is approved, you need to follow the steps to sign an online contract on the CUB Vietnam application to complete activating Credit Limit. After the above time, if there is no Credit Limit Contract which was signed by customer, the Credit Limit agreement will expire and you will need to reapply when needs.<br>If you have any concerns, please contact our Customer Service Hotline at <a class=\"linkText text-blue-500 font-italic\" href=\"tel:+842836226836\">028 3622 6836</a>",
+      "HowToUse": "You can disburse on CUB Vietnam App at any time with tenor up to 36 installments depending on your needs and ability to pay.",
+      "Amount": "Credit Limit granted base on each customer's condition and follow the Bank's policy.",
+      "UsingTime": "5 years after you sign the Credit Limit agreement. At least once a year, Bank will consider redefining the maximum loan limit and the duration of maintaining this limit.",
+      "EMICalculationFormula": "Monthly repayment amount is equal monthly installments which be calculated based on the loan amount, loan tenor & loan interest rate.",
+      "RepaymentDueDateAmount": "Bank will send you a notification SMS before monthly payment date on a specific date. You can also check it on CUB Vietnam App.",
+      "InterestCalculationFormula": "Interest will be the loan interest rate agreed with you corresponding to each withdraw/disbursement, on the basis of a 365-day year and calculated based on the decreasing principal balance. Please help to refer <a href=\"assets/file/CUB consumer loan_Product Tariff.pdf\" target=\"_blank\" class=\"linkText text-blue-500 font-italic\">here</a>",
+      "RepaymentChannels": "You can transfer the amount to CUB's repayment account through NAPAS 24/7 or MoMo e-wallet: \n<span class=\"font-bold \">1. Through NAPAS 24/7:</span> Go to CUB Vietnam App -> choose Repay Method is <span class=\"font-bold \">\"Bank\"</span>, check your payment account number at Cathay United Bank -> make payment at your Bank's app;\n<span class=\"font-bold \">2. Through MoMo E-Wallet:</span> Go to CUB Vietnam App, choose Repay Method is <span class=\"font-bold \">\"E-Wallet\"</span>, click <span class=\"font-bold \">\"Lead to MoMo\"</span> -> MoMo E-Wallet will show the detail of amount to be paid and you can make payment directly on MoMo E-Wallet.",
+      "LatePayment": "In case loan is converted into overdue debt, Bank will calculate interest on the overdue principal balance corresponding to the time you are late paying, the applicable interest rate is 150% of the current loan interest rate at the time of transfer overdue. Late payments will affect your credit history and ability to borrow in the future.",
+      "ShortPayment": "If you do not pay full monthly installment, the lack payment amount will be added to the next monthly installment, including late payment interest calculated according to the prescribed fee list stated <a href=\"assets/file/CUB consumer loan_Product Tariff.pdf\" target=\"_blank\" class=\"linkText text-blue-500 font-italic\">here</a> and agreed in the contract with you.",
+      "OverPayment": "You cannot overpay, redundant or exceed the monthly installment. Please pay enough and accurately monthly installment repayment so that the transaction is made successfully and does not affect your repayment history.",
+      "EarlyPayment": "For monthly installment repayment, please pay on the due date of that installment period. Your payment will only be considered successful when Bank's system records the corresponding payment. You need to pay before 6:30 P.M on payment due date.",
+      "EarlyTerminationTerm": "You can make loan termination for each loan on CUB Vietnam App. This request will only be made when you have completed the first 3 payment tenors for each loan. Early settlement fee may be payable as defined in the fees and charges outlined <a href=\"assets/file/CUB consumer loan_Product Tariff.pdf\" target=\"_blank\" class=\"linkText text-blue-500 font-italic\">here</a>. Simultaneously, Customer cannot make early partial payment for Credit Loan.",
+      "PartialPayment": "No",
+      "UserGuide": "Please help to refer <a href=\"assets/file/CUB Vietnam App User Guideline_Ver 2.1_241226.pdf\" target=\"_blank\" class=\"linkText text-blue-500 font-italic\">here</a> for CUB Vietnam Application (App) user guideline",
+      "CustomerInquiriesHandlingPrinciples": "The Bank is responsible for notifying consumers of the receipt of feedback, requests, and complaints from consumers within 03 working days from the date of receiving such feedback, requests, or complaints. The single step for checking process is not over 3 working days. <br>In certain cases, if the Bank need additional time to check and verify information, the time to process your questions/complaints may be longer than expected and will be notified to customer.<br>Please help to refer <a class=\"linkText text-blue-500 font-italic\" href=\"https://www.cathaybk.com.tw/OVSWS/Content/pdf/vn/hcmc/consumer-banking/Customer%20Handling%20Enquiries%20Principles_ENG.pdf\" target=\"_blank\">here</a> for more information."
+    }
+  },
+  "Product": {
+    "Title1": "Your aims, our passion! A good fit for the right choice!",
+    "Title2": "",
+    "Card1GreenText": "",
+    "Card1Title": "Attractive Product",
+    "Card1SubTitle": "",
+    "Card1List1": "Attractive interest rate from 1.91%/ month",
+    "Card1List1Note": "Flat interest rate is converted from interest rate according to actual loan outstanding, please find details in the",
+    "Card1List1NoteLink": "Product tariff",
+    "Card1List2": "Flexible tenor up to 36 months",
+    "Card1List3": "The maximum loan amount up to 40 mil VND",
+    "Card2Title": "Fast Process",
+    "Card2SubTitle": "",
+    "Card2List1": "100% Online",
+    "Card2List2": "Quick and effortless loan approval in just a few of minutes",
+    "Card2List3": "One credit line application, multiple loans",
+    "Card3Title": "Simple required document",
+    "Card3SubTitle": "",
+    "Card3List1": "Only Citizen ID",
+    "Card3List2": "No income proof",
+    "Card3List3": "No collaterals",
+    "Card4Title": "Customer eligibility requirements",
+    "Card4SubTitle": "Who can apply?",
+    "Card4List1": "Vietnamese citizens from 22 to 55 years’ old",
+    "Card4List2": "National valid ID card’s owner",
+    "Card4List3": "Using Viettel/ MobiFone/ Vinaphone telecom",
+    "Card5": ""
+  },
+  "Carousel": {
+    "Title1": "No Interest if you don’t use",
+    "Title1Sub1": "Attractive IR from 1.91%/ month",
+    "Title1Sub2": "",
+    "Title1Sub1Note": "Flat interest rate is converted from interest rate according to actual loan outstanding, please find details in the",
+    "Title1Sub1NoteLink": "Product tariff",
+    "Title2": "One-time Apply",
+    "Title2Sub1": "Multiple Drawdown",
+    "Title2Sub2": "",
+    "Title3": "Fast Approval",
+    "Title3Sub1": "within 10 minutes",
+    "Title3Sub2": "",
+    "Title4": "100% online",
+    "Title4Sub1": "ONLY Need",
+    "Title4Sub2": "CCCD"
+  },
+  "Alert": {
+    "Title": "Latest News",
+    "Info": "Info",
+    "FooterReadMore": "Read More",
+    "AccountNotFound": "We cannot find your account.<br/>Please contact your system administrator.",
+    "FileResolvedFailed": "File resolved failed!",
+    "FileHeaderResolvedFailed": "Can't find the header of the table of the uploaded file!",
+    "FileNamingConventionWrong": "The naming convention of uploaded file is wrong!",
+    "ColumnDataErrorFrontMsg": "The data of column **",
+    "ColumnDataErrorBackMsg": "** is wrong!"
+  },
+  "Button": {
+    "Download": "Download",
+    "Submit": "Submit",
+    "Save": "Save",
+    "Delete": "Delete",
+    "Deactivate": "Deactivate",
+    "Add": "Add",
+    "Yes": "Yes",
+    "No": "No",
+    "Cancel": "Cancel",
+    "Close": "Close",
+    "Leave": "Leave",
+    "Remove": "Remove",
+    "Logout": "Log out",
+    "AddNew": "Add New",
+    "AddTemplate": "Add Template",
+    "Back": "Back",
+    "ViewEditHistory": "View Edit History",
+    "DownloadTemplate": "Download Template",
+    "SubmitForReview": "Submit for Review",
+    "Reject": "Reject",
+    "Approve": "Approve",
+    "Discontinue": "Discontinue",
+    "Preview": "Preview",
+    "ExportCSV": "Export CSV",
+    "ExportXLSX": "Export XLSX",
+    "LoadMore": "Load More",
+    "Duplicate": "Duplicate",
+    "Apply": "Apply",
+    "UploadFile": "Upload File",
+    "Search": "Search",
+    "DownloadFile": "Download File",
+    "Agreed": "Agreed",
+    "Confirm": "Confirm"
+  },
+  "PageTitle": {
+    "FAQ": "FAQs",
+    "Product": "PRODUCT",
+    "AboutUs": "ABOUT US",
+    "News": "News",
+    "Events": "Events",
+    "ReferenceInformationAndTerms": "Reference Information and Terms",
+    "TermsCondition": "Terms and Conditions",
+    "ReferenceContract": "Reference Contract",
+    "Terms": "Terms",
+    "PrivacyPolicy":"PRIVACY POLICY",
+    "SUPPORT":"SUPPORT"
+  },
+  "ReferenceInformationAndTerms": {
+    "IndividualCustomers": "General Credit Terms and Conditions at Cathay United Bank for Individual Borrowers",
+    "Biometric": "Terms and Conditions for Biometric Authentication",
+    "TermsCondition": "Terms and Conditions",
+    "CookiesPolicy": "Cookie Policy"
+  },
+  "Lang": {
+    "English": "English",
+    "Vietnamese": "Tiếng Việt"
+  },
+  "LangShort": {
+    "English": "EN",
+    "Vietnamese": "VN"
+  },
+  "TITLE": {
+    "HOME": "Cathay United Bank Ho Chi Minh City Branch - Consumer Banking",
+    "PRODUCT": "Cathay United Bank Ho Chi Minh City Branch - Product",
+    "FAQ": "Cathay United Bank Ho Chi Minh City Branch - FAQs",
+    "NEWS": "Cathay United Bank Ho Chi Minh City Branch - News",
+    "EVENT": "Cathay United Bank Ho Chi Minh City Branch - Events",
+    "SUPPORT": "Cathay United Bank Ho Chi Minh City Branch - SUPPORT",
+    "FAQ_TITLE": "Cathay United Bank Ho Chi Minh City Branch - FAQs",
+    "PrivacyPolicy": "Cathay United Bank Ho Chi Minh City Branch - Privacy Policy"
+  },
+  "APP": {
+    "VERSION": "Version"
+  },
+  "NEWS": {
+    "NEWS1": {
+      "TITLE": "Dịch vụ \"Thông báo điện tử\" (e-Advice) mới sẽ sớm được triển khai",
+      "CONTENT": "Dịch vụ \"Thông báo điện tử\" (e-Advice) mới của Ngân hàng Cathay United Bank – Chi nhánh Thành phố Hồ Chí Minh (\"Ngân hàng\") sẽ được triển khai từ ngày 25 tháng 12 năm 2023. Dịch vụ này sẽ tự động gửi \"Thông báo điện tử\" qua thư điện tử thay vì gửi thư bằng giấy, giúp giảm tiêu thụ giấy và góp phần bảo vệ tài nguyên thiên nhiên.",
+      "SUBCONTENT": {
+        "SUBCONTENT1": {
+          "TITLE": "Đối tượng áp dụng",
+          "CONTENT": "Khách hàng doanh nghiệp của Ngân hàng"
+        },
+        "SUBCONTENT2": {
+          "TITLE": "Danh mục giao dịch hiện áp dụng cho dịch vụ thông báo điện tử",
+          "CONTENT": "Các danh mục giao dịch không có liệt kê ở đây sẽ tiếp tục được gửi dưới hình thức hiện tại. Danh mục giao dịch nêu trên sẽ được cập nhật tùy từng thời điểm, vui lòng kiểm tra thường xuyên để biết các thông báo mới nhất của Ngân hàng chúng tôi. Vui lòng xem mục \"Tin tức mới nhất\" trên trang web chính thức của Ngân hàng chúng tôi để xem các thông báo mới nhất về dịch vụ này.",
+          "terms1": "• Sao kê tài khoản",
+          "terms2": "• Chuyển khoản nội bộ",
+          "terms3": "• Chuyển tiền đi",
+          "terms4": "• Chuyển tiền về"
+        },
+        "SUBCONTENT3": {
+          "TITLE": "Phương thức đăng ký",
+          "terms1": "• Đăng ký dịch vụ của Global MyB2B trực tuyến",
+          "terms2": "• Đến Ngân hàng để đăng ký trực tiếp"
+        },
+        "SUBCONTENT4": {
+          "TITLE": "Lợi ích dịch vụ \"Thông báo điện tử\" (e-Advice) mang lại:",
+          "CONTENT": "Nếu quý khách hàng có bất kỳ thắc mắc nào về thông báo này, vui lòng liên hệ với Nhân viên quản lý khách hàng hoặc gọi điện đến Ngân hàng trong giờ làm việc theo số +84-28-3825-8768.",
+          "terms1": "• Nhanh chóng và an toàn",
+          "terms1_content": "Không chậm trễ do giao nhận qua đường bưu điện. Thông báo giao dịch của quý khách hàng sẽ được gửi đến địa chỉ thư điện tử đã chỉ định một cách tự động và kịp thời sau khi giao dịch được thực hiện. Thông báo điện tử được mã hóa để bảo vệ quyền riêng tư của quý khách hàng.",
+          "terms2": "• Tiết kiệm không gian và tiện lợi",
+          "terms2_content": "Kể từ ngày đề nghị sử dụng dịch vụ \"Thông báo điện tử\" của quý khách hàng có hiệu lực, quý khách hàng có thể nhận sao kê tài khoản và thông báo giao dịch qua thư điện tử và tải xuống. Như vậy quý khách hàng không cần phải lưu trữ và sắp xếp nhiều giấy tờ.",
+          "terms3": "• Quy trình đăng ký đơn giản và Mọi khoản phí đều miễn phí",
+          "terms3_content": "Quý khách hàng có thể gửi đơn đăng ký trực tuyến hoặc trực tiếp, và dịch vụ \"Thông báo điện tử\" là miễn phí mà không phải trả thêm chi phí nào nữa."
+        }
+      }
+    },
+    "NEWS2": {
+      "TITLE": "[WARNING] FAKE CATHAY UNITED BANK FACEBOOK FANPAGE AND ZALO GROUP",
+      "CONTENT": "Cathay United Bank (CUB) has been detected that the Tuyển dụng Cathay United Bank (Cathay United Bank Recruitment Page) is posting recruitment content for one thousand online credit officers across the nation while utilizing CUB's images, content, and logo, etc which provide the untruthful information, and cheating information of CUB.  After the user sends a message to this page, they will be redirected to TÀI CHÍNH & BẢO HIỂM ONLINE Zalo group (ONLINE FINANCE & INSURANCE). To be able to join this group chat, users are required to provide 2 phone numbers of themselves or relatives. Tuyển dụng Cathay United Bank and TÀI CHÍNH & BẢO HIỂM ONLINE Zalo group Zalo group are not owned by Cathay United Bank.\n\nIn order to prevent any forms of forgery to defraud, personal information theft, CUB would like to announce to customers as follows:",
+      "SUBCONTENT": {
+        "SUBCONTENT1": {
+          "TITLE": "<strong>🔰CONTACT CUB ONLY THROUGH:</strong>",
+          "terms1": "✅Website: <a href=\"https://www.vn.cathaybk.com/home\" target=\"_blank\">https://www.vn.cathaybk.com/home</a> or <a href=\"https://www.cathaybk.com.tw/vn/hcmc/vi-vn/\" target=\"_blank\">https://www.cathaybk.com.tw/vn/hcmc/vi-vn/</a>",
+          "terms2": "✅Support hotline: <a href=\"tel:+842836226836\">+84 28 3622 6836</a>",
+          "terms3": "✅Email: <a href=\"mailto:contact.CUB@vn.cathaybk.com\">contact.CUB@vn.cathaybk.com</a>",
+          "terms4": "✅Facebook: <a href=\"https://www.facebook.com/profile.php?id=61552399383144\" target=\"_blank\">https://www.facebook.com/profile.php?id=61552399383144</a>"
+        },
+        "SUBCONTENT2": {
+          "TITLE": "<strong>⛔️ PLEASE NOTICE:</strong>",
+          "terms1": "❌Do not provide any personal information or personal account security information to anyone (even if this person claims to be an employee of Cathay United Bank).",
+          "terms2": "❌Do not contact fake Facebook fanpages or Zalo groups pretending to be Cathay United Bank.",
+          "terms3": "❌Do not join any online job recruitment groups impersonating Cathay United Bank",
+          "terms4": "☎️When there are any suspicions related to recruitment fraud or loan account creating loan to receive commissions, customers need to immediately contact the authorities and notify Cathay United Bank’s hotline for support."
+        }
+      }
+    },
+    "NEWS3": {
+      "TITLE": "FOLLOW CATHAY UNITED BANK'S OFFICIAL FACEBOOK CHANNEL",
+      "CONTENT": "With the purpose of building a source of most up to date information to customers, Cathay United Bank Ho Chi Minh City branch has built an official Facebook fanpage channel called Cathay United Bank (VN) in Ho Chi Minh City. <a href=\"http://www.facebook.com/cathayunitedbankvietnamofficial\">http://www.facebook.com/cathayunitedbankvietnamofficial</a> .<br><br>Currently, Cathay United Bank only has this one official Facebook channel mentioned above. If you discover a channel impersonating Cathay United Bank, please notify Cathay United Bank at hotline <a href=\"tel:+842836226836\">+84 28 3622 6836</a> for support."
+    },
+    "NEWS4": {
+      "TITLE": "CHƯƠNG TRÌNH KHUYẾN MẠI: “CHỌN ĐÚNG MẢNH GHÉP, NHẬN QUÀ LIỀN TAY CÙNG CUB”",
+      "TITLE1": "THỂ LỆ CHƯƠNG TRÌNH KHUYẾN MẠI “CHỌN ĐÚNG MẢNH GHÉP, NHẬN QUÀ LIỀN TAY CÙNG CUB”",
+      "SUBCONTENT": {
+        "SUBCONTENT1": {
+          "TITLE": "<strong>1. Tên Chương Trình khuyến mại:</strong> \"CHỌN ĐÚNG MẢNH GHÉP, NHẬN QUÀ LIỀN TAY CÙNG CUB\"",
+          "CONTENT": "\"CHỌN ĐÚNG MẢNH GHÉP, NHẬN QUÀ LIỀN TAY CÙNG CUB\""
+        },
+        "SUBCONTENT2": {
+          "TITLE": "<strong>2. Địa bàn (phạm vi) khuyến mại:</strong> Toàn quốc",
+          "CONTENT": "Toàn quốc"
+        },
+        "SUBCONTENT3": {
+          "TITLE": "<strong>3. Hình thức khuyến mại:</strong> Bán hàng, cung ứng dịch vụ có kèm theo phiếu dự thi cho khách hàng để chọn người trao thưởng theo thể lệ và giải thưởng đã công bố (hoặc các hình thức tổ chức thi và trao thưởng khác tương đương)",
+          "CONTENT": "Bán hàng, cung ứng dịch vụ có kèm theo phiếu dự thi cho khách hàng để chọn người trao thưởng theo thể lệ và giải thưởng đã công bố (hoặc các hình thức tổ chức thi và trao thưởng khác tương đương)"
+        },
+        "SUBCONTENT4": {
+          "TITLE": "<strong>4. Thời gian khuyến mại:</strong> Từ ngày 29/7/2024 đến hết ngày 09/8/2024 (\"Thời Gian Chương Trình\")",
+          "CONTENT": "Từ ngày 29/7/2024 đến hết ngày 09/8/2024 (\"Thời Gian Chương Trình\")"
+        },
+        "SUBCONTENT5": {
+          "TITLE": "<strong>5. Hàng hóa, dịch vụ khuyến mại:</strong>",
+          "terms1": "- Ứng dụng CUB Vietnam do Ngân hàng Cathay United Bank - Chi nhánh TP. Hồ Chí Minh (\"CUB\") quản lý (gọi chung là \"Ứng dụng\" hoặc \"CUB Vietnam App\") được tải từ link: <a class=\"linkText\"  href=\"https://cubvn.onelink.me/13iZ/22ibe40e\">https://cubvn.onelink.me/13iZ/22ibe40e</a> hoặc quét mã QR code bên dưới",
+          "terms2": "- Trang Facebook Fanpage của CUB tại địa chỉ: <a class=\"linkText\" href=\"https://www.facebook.com/cathayunitedbankvietnamofficial\">https://www.facebook.com/cathayunitedbankvietnamofficial</a> (\"Trang Facebook Fanpage của CUB\")"
+        },
+        "SUBCONTENT6": {
+          "TITLE": "<strong>6. Hàng hóa, dịch vụ dùng để khuyến mại:</strong> E-voucher Gotit trị giá 100,000 đồng/e-voucher (“Voucher”)",
+          "CONTENT": "E-voucher Gotit trị giá 100,000 đồng/e-voucher (“Voucher”)"
+        },
+        "SUBCONTENT7": {
+          "TITLE": "<strong>7. Khách hàng của Chương Trình khuyến mại (đối tượng được hưởng khuyến mại): </strong>",
+          "CONTENT": "Chương Trình áp dụng cho tài khoản tham gia Chương trình là tài khoản Facebook thật (sau đây gọi là “Tài khoản” hoặc “người chơi”) thỏa mãn các điều kiện sau (sau đây gọi là “Tài khoản hợp lệ”): ",
+          "terms1": "- Tài khoản của cá nhân, không phải là trang fanpage hay tài khoản tổ chức.",
+          "terms2": "- Tài khoản từng có bài viết (hoặc bất kỳ hoạt động nào) diễn ra ít nhất 6 tháng trước đó, kể từ ngày bắt đầu Thời gian Chương trình;",
+          "terms3": "- Tài khoản không phải là tài khoản được lập ra chỉ với mục đích săn giải, và có tương tác công khai trên Facebook ít nhất 01 (một) tháng trước kể từ ngày bắt đầu Thời gian Chương trình.",
+          "terms4": "- Tài khoản tham gia Chương trình là tài khoản của công dân Việt Nam trên 22 tuổi và có ít nhất 100 bạn bè trên Facebook.",
+          "terms5": "- Mỗi Tài khoản chỉ được tham gia 01 (một) lần trong suốt Thời Gian Chương Trình.",
+          "terms6": "- Không phải là Tài khoản của nhân viên CUB.",
+          "terms7": "- Và thỏa mãn các điều kiện ở Mục 10 của thông báo này."
+        },
+        "SUBCONTENT8": {
+          "TITLE": "<strong>8. Cơ cấu giải thưởng (nội dung giải thưởng, giá trị giải thưởng, số lượng giải thưởng):</strong>",
+          "CONTENT": "<table><tr><th>Nội dung giải thưởng</th><th>Số lượng giải thưởng</th><th>Tổng giá trị giải thưởng (VND)</th></tr><tr><td class=\"tdW450 textCenter\">CUB sẽ chọn ra 100 Tài khoản hợp lệ có Bài tham gia hợp lệ chính xác nhất, đầy đủ nhất và nhanh nhất đối với các câu đố, trò chơi (“mini game”) được đặt ra bởi CUB để trao Voucher</td><td class=\"tdW250 textCenter\">100 Voucher mệnh giá 100,000 VND</td><td  class=\"textCenter\">10,000,000</td></tr><tr><td colspan=\"3\" class=\"textReight\">Tổng giải thưởng: 10,000,000 VND</td></tr></table>"
+        },
+        "SUBCONTENT9": {
+          "TITLE": "<strong>9. Tổng giá trị hàng hóa, dịch vụ dùng để khuyến mại:</strong> 10,000,000 đồng (Bằng chữ: Mười triệu đồng chẵn).",
+          "CONTENT": "10,000,000 đồng (Bằng chữ: Mười triệu đồng chẵn)."
+        },
+        "SUBCONTENT10": {
+          "TITLE": "<strong>10. Nội dung chi tiết của Chương Trình khuyến mại:</strong>",
+          "terms1": {
+            "TITLE": "<strong>a) Cách thức tham gia</strong>",
+            "terms1": "- Tài khoản của người chơi và tài khoản của bạn bè được tag tên phải có đầy đủ ảnh đại diện, ảnh bìa, có phát sinh tương tác ở chế độ công khai trên dòng thời gian (ngoài các hoạt động chia sẻ minigame) trong 03 (ba) tuần gần nhất trước thời điểm bắt đầu Thời Gian Chương Trình.",
+            "terms2": "- Minigame sẽ được tổ chức trên Trang Facebook Fanpage của CUB.",
+            "terms3": {
+              "TITLE": "- Khi tham gia minigame, tài khoản của người chơi thực hiện các hoạt động sau (sau đây gọi là “Bài tham gia hợp lệ”):",
+              "TERMS1": "• Bước 1: Thích (Like)/ Theo dõi (Follow) Trang Facebook Fanpage của CUB.",
+              "TERMS2": "• Bước 2: Tương tác (bằng các nút Thích, Thả tim), chia sẻ nội dung bài minigame ở chế độ công khai, bình luận trả lời minigame kèm theo cú pháp “Có Cathay cân cả thảy #CathayUnitedBank #CoCathaycancathay #CUBVietnam” <br><i>Ví dụ: A Có Cathay cân cả thảy #CathayUnitedBank #CoCathaycancathay #CUBVietnam</i> <br><i>Trong đó, A là đáp án trả lời minigame, kèm theo cú pháp yêu cầu.</i><br>",
+              "TERMS3": "• Bước 3: Tải ứng dụng CUB Vietnam theo Mục 5 của Thông báo này, dùng số điện thoại, email để tạo tài khoản và đăng nhập Ứng dụng, và điền tên tài khoản Facebook tại vị trí Mã giới thiệu. <br><br>Cách thức cập nhật mã giới thiệu: Vào CUB Vietnam App, chọn mục Cài đặt, chọn Mã giới thiệu và điền tên tài khoản Facebook tham gia minigame vào mục Mã giới thiệu. Lưu ý: Mã giới thiệu chỉ nhập được một lần, và khi người dùng bấm xác nhận, hệ thống sẽ lưu trữ và không thể chỉnh sửa, người dùng lưu ý nhập và kiểm tra chính xác tên tài khoản Facebook vào mục Mã giới thiệu để được tính hợp lệ. <br><br><i>Ví dụ: Tên Facebook của người chơi là Hoa Nguyễn, nội dung điền trong phần Mã giới thiệu sau khi tạo tài khoản đăng nhập Ứng dụng thành công sẽ là “HoaNguyen” (không có dấu, không khoảng cách).</i><br><br>Lưu ý: Số điện thoại dùng để đăng ký tài khoản đăng nhập Ứng dụng sẽ được dùng làm số điện thoại để CUB sẽ liên hệ để trao thưởng (nếu đạt giải)."
+            }
+          },
+          "terms2": {
+            "TITLE": "<strong>b) Cách thức xác định Bài tham gia hợp lệ</strong>",
+            "terms1": "- Bài tham gia được tính là hợp lệ khi thực hiện đầy đủ các bước theo yêu cầu của minigame như mục a) nói trên.",
+            "terms2": "- Bài tham gia được xem là hợp lệ nếu còn tồn tại, có thể nhìn thấy được ở chế độ công khai trong suốt thời gian diễn ra Chương Trình khuyến mại cho đến khi CUB công bố danh sách người chơi đạt giải thưởng.",
+            "terms3": "- Mỗi người chơi chỉ được bình luận 01 (một) lần, và bình luận đó sẽ bình luận đầu tiên và duy nhất. Những bình luận tiếp theo sẽ không được tính.",
+            "terms4": "- Người chơi không được sửa bình luận sau khi đã bình luận."
+          },
+          "terms3": {
+            "TITLE": "<strong>c) Trao thưởng</strong>",
+            "terms1": "- CUB sẽ chọn ra 100 Tài khoản hợp lệ có Bài tham gia hợp lệ chính xác nhất, đầy đủ nhất và nhanh nhất đối với các minigame được đặt ra bởi CUB để trao Voucher (“người đạt giải”). Ngày dự kiến công bố danh sách người chơi đạt giải thưởng dự kiến sẽ được công bố vào ngày <strong>15/8/2024</strong> trên Trang Facebook Fanpage của CUB (“Ngày công bố”)",
+            "terms2": "- Mỗi người chơi chỉ nhận tối đa một giải thưởng.",
+            "terms3": "- Voucher sẽ được CUB hoặc nhà cung cấp Gotit gửi dưới dạng tin nhắn SMS đến số điện thoại của Tài khoản hợp lệ.",
+            "terms4": "- Số điện thoại của Tài khoản hợp lệ là số điện thoại được dùng để đăng ký tạo tài khoản đăng nhập Ứng dụng như bước 3 của Mục 10.a nêu trên. Mọi vấn đề liên quan đến trao thưởng sẽ được thực hiện qua số điện thoại này.",
+            "terms5": "- Mỗi người chơi được xác định thông qua tên Facebook gắn với số điện thoại được điền tại bước 3 của Mục 10.a nêu trên.",
+            "terms6": "- Giải thưởng không được quy đổi ra tiền mặt.",
+            "terms7": "- Thời gian CUB trao giải thưởng của chương trình sẽ không vượt quá 45 ngày kể từ ngày kết thúc Thời Gian Chương Trình."
+          }
+        },
+        "SUBCONTENT11": {
+          "TITLE": "<strong>11. Điều khoản chung</strong>",
+          "terms1": "11.1 Trong trường hợp CUB phát hiện dấu hiệu gian lận, săn giải hoặc có mục đích, hành vi vi phạm quy định của chương trình hoặc có thực hiện bất cứ hành động nào gây ảnh hưởng đến kết quả trung thực cuối cùng, bài dự thi sẽ bị loại khỏi chương trình mà không cần báo trước.",
+          "terms2": "11.2 Trường hợp có bất kỳ khoản phí, thuế nào phát sinh do việc nhận quà tặng khuyến mại từ Chương trình khuyến mại này, người chơi theo đây đồng ý chịu trách nhiệm tự kê khai và đóng các khoản phí, thuế nêu trên với cơ quan nhà nước có thẩm quyền (nếu có).",
+          "terms3": "11.3 Trong trường hợp xảy ra tranh chấp liên quan đến chương trình khuyến mại này, tranh chấp sẽ được giải quyết theo quy định pháp luật. CUB được miễn trách nhiệm đối với các trường hợp thuộc sự kiện bất khả kháng theo quy định pháp luật.",
+          "terms4": "11.4 Thông báo này được đăng tải trên website của CUB, khi có sự thay đổi liên quan đến Chương Trình khuyến mại, CUB sẽ đăng tải nội dung thay đổi tại địa chỉ website: <a class=\"linkText\"  href=\"https://www.vn.cathaybk.com/home\">https://www.vn.cathaybk.com/home</a>.",
+          "terms5": "11.5 Bằng việc tham gia minigame, người chơi cho phép CUB sử dụng hình ảnh, thông tin cá nhân của người chơi cho mục đích quảng bá thương hiệu trên các phương tiện truyền thông mà không cần trả bất kỳ khoản phí nào.",
+          "terms6": "11.6. Các giải thưởng không thể chuyển nhượng dưới bất kỳ hình thức nào.",
+          "terms7": "11.7 Mọi thắc mắc liên quan đến chương trình khuyến mại, người chơi liên hệ với Phòng Dịch vụ khách hàng của CUB – Điện thoại: <a class=\"linkText\" href=\"tel:+842836226836\">028 3622 6836</a>, hoặc địa chỉ email:  <a class=\"linkText\" href=\"mailto:contact.CUB@vn.cathaybk.com\">contact.CUB@vn.cathaybk.com</a>"
+        }
+      }
+    },
+    "NEWS5": {
+      "TITLE": "THÔNG BÁO THAY ĐỔI PHƯƠNG THỨC TRAO THƯỞNG CHƯƠNG TRÌNH KHUYẾN MẠI “CHỌN ĐÚNG MẢNH GHÉP, NHẬN QUÀ LIỀN TAY CÙNG CUB”",
+      "SUBCONTENT": {
+        "SUBCONTENT1": {
+          "terms1": "- Căn cứ Thể lệ chương trình khuyến mại “Chọn đúng mảnh ghép, nhận quà liền tay cùng CUB” được niêm yết vào ngày 28 tháng 7 năm 2024 tại địa chỉ <a class=\"linkText text-blue-500 font-italic\" href=\"https://www.vn.cathaybk.com/news/4\" target=\"_blank\">https://www.vn.cathaybk.com/news/4</a>",
+          "terms2": "- Căn cứ quy định pháp luật có liên quan;",
+          "terms3": "- Căn cứ danh sách người chơi đạt giải thưởng đã được công bố",
+          "terms4": "- Căn cứ tình hình thực tế"
+        },
+        "SUBCONTENT2": {
+          "content": "Ngân hàng Cathay United Bank-Chi nhánh TP. Hồ Chí Minh (CUB) xin thông báo về việc thay đổi phương thức trao thưởng cho những người đạt giải như sau: <br><br> Người đạt giải sẽ được nhận quà tặng là voucher điện tử Got-it trị giá 100,000 VNĐ qua địa chỉ email đã đăng ký và xác thực với ứng dụng CUB Vietnam, thay vì qua tin nhắn SMS đến số điện thoại đã đăng ký tài khoản hợp lệ theo thể lệ chương trình đã được công bố trước đó. <br><br> CUB đảm bảo việc thay đổi phương thức trao giải này không làm ảnh hưởng đến quyền lợi hợp pháp của người đạt giải vì trong quá trình đăng ký tài khoản đăng nhập Ứng dụng CUB Vietnam theo cách thức tham gia chương trình, bên cạnh số điện thoại, người tham gia cần phải cung cấp địa chỉ email và được xác thực bằng mã OTP đã được gửi đến địa chỉ email. Do đó, về mặt giá trị sử dụng, số điện thoại hoặc email đã đăng ký trên Ứng dụng CUB Vietnam đều có giá trị pháp lý và giá trị sử dụng ngang nhau, đều khả dụng để tiếp nhận thông tin từ CUB.CUB rất mong sẽ tiếp tục nhận được sự quan tâm và ủng hộ từ Quý khách hàng đối với những chương trình khuyến mại tiếp theo. <br><br> Mọi thắc mắc liên quan đến chương trình khuyến mại hoặc vấn đề trao giải, người đạt giải xin vui lòng  liên hệ với Phòng Dịch vụ khách hàng của CUB – Điện thoại: <a class=\"linkText\" href=\"tel:+842836226836\">028 3622 6836</a>, hoặc địa chỉ email:  <a class=\"linkText\" href=\"mailto:contact.CUB@vn.cathaybk.com\">contact.CUB@vn.cathaybk.com</a> (từ thứ 2 đến thứ 6, từ 8:30 sáng đến 17:30 chiều) để được hỗ trợ và giải đáp.<br><br> Trân trọng!"
+        }
+      }
+    },
+    "NEWS6": {
+      "TITLE": "THỂ LỆ CHƯƠNG TRÌNH KHUYẾN MẠI “MỪNG THÁNG DỊU DÀNG, TRAO NGÀN QUÀ TẶNG”",
+      "TITLE1": "THỂ LỆ CHƯƠNG TRÌNH KHUYẾN MẠI “MỪNG THÁNG DỊU DÀNG, TRAO NGÀN QUÀ TẶNG”",
+      "SUBCONTENT": {
+        "SUBCONTENT1": {
+          "TITLE": "<strong>1. Tên Chương Trình khuyến mại:</strong> Ngân hàng Cathay United Bank – Chi nhánh Thành phố Hồ Chí Minh (“CUB”) trân trọng giới thiệu Chương Trình khuyến mại “MỪNG THÁNG DỊU DÀNG, TRAO NGÀN QUÀ TẶNG” (“Chương Trình”).",
+          "CONTENT": "Ngân hàng Cathay United Bank – Chi nhánh Thành phố Hồ Chí Minh (“CUB”) trân trọng giới thiệu Chương Trình khuyến mại “MỪNG THÁNG DỊU DÀNG, TRAO NGÀN QUÀ TẶNG” (“Chương Trình”)."
+        },
+        "SUBCONTENT2": {
+          "TITLE": "<strong>2. Địa bàn (phạm vi) khuyến mại:</strong> Toàn quốc",
+          "CONTENT": "Toàn quốc"
+        },
+        "SUBCONTENT3": {
+          "TITLE": "<strong>3. Hình thức khuyến mại:</strong> Tặng hàng hóa, cung ứng dịch vụ không thu tiền có kèm theo việc mua bán hàng hóa, cung ứng dịch vụ.",
+          "CONTENT": "Tặng hàng hóa, cung ứng dịch vụ không thu tiền có kèm theo việc mua bán hàng hóa, cung ứng dịch vụ."
+        },
+        "SUBCONTENT4": {
+          "TITLE": "<strong>4. Thời gian khuyến mại:</strong> Từ ngày 14/10/2024 đến hết ngày 28/10/2024 (“Thời Gian Chương Trình”).",
+          "CONTENT": "Từ ngày 14/10/2024 đến hết ngày 28/10/2024 (“Thời Gian Chương Trình”)."
+        },
+        "SUBCONTENT5": {
+          "TITLE": "<strong>5. Hàng hóa, dịch vụ khuyến mại:</strong>",
+          "CONTENT": "Dịch vụ cho vay tiêu dùng trực tuyến tại ứng dụng CUB Vietnam, với hạn mức tín dụng tối đa là 40,000,000 VNĐ."
+        },
+        "SUBCONTENT6": {
+          "TITLE": "<strong>6. Hàng hóa, dịch vụ dùng để khuyến mại:</strong> E-voucher Got-it trị giá 50,000 VNĐ/e-voucher (“Voucher”), với số lượng tối đa là 1900 Voucher cho các Tài khoản hợp lệ thực hiện đầy đủ các bước nhất và nhanh nhất theo Thể lệ này.<br>Giá trị vật chất dùng để khuyến mại cho một đơn vị hàng hóa, dịch vụ được khuyến mại không được vượt quá 50% giá của đơn vị hàng hóa, dịch vụ được khuyến mại đó trước thời gian khuyến mại.",
+          "CONTENT": "E-voucher Got-it trị giá 50,000 VNĐ/e-voucher (“Voucher”), với số lượng tối đa là 1900 Voucher cho các Tài khoản hợp lệ thực hiện đầy đủ các bước nhất và nhanh nhất theo Thể lệ này.<br>Giá trị vật chất dùng để khuyến mại cho một đơn vị hàng hóa, dịch vụ được khuyến mại không được vượt quá 50% giá của đơn vị hàng hóa, dịch vụ được khuyến mại đó trước thời gian khuyến mại."
+        },
+        "SUBCONTENT7": {
+          "TITLE": "<strong>7. Khách hàng của Chương Trình khuyến mại (đối tượng được hưởng khuyến mại): </strong>",
+          "CONTENT": "Chương Trình áp dụng cho các tài khoản người dùng của ứng dụng Zalo tiếp cận với sản phẩm quảng cáo về dịch vụ cho vay tiêu dùng trực tuyến tại ứng dụng CUB Vietnam trong Chuyên mục Tiện ích tài chính Fiza trên ứng dụng Zalo, và đáp ứng đầy đủ các điều kiện sau đây:",
+          "terms1": "- Tài khoản tham gia là tài khoản người dùng cá nhân trên ứng dụng Zalo;",
+          "terms2": "- Tài khoản cần hoàn tất đầy đủ các bước tải ứng dụng CUB Vietnam, tạo tài khoản và hoàn tất đăng ký hạn mức tín dụng để có cơ hội nhận được quà tặng từ CUB (dù tài khoản được duyệt cấp hạn mức tín dụng hay không). ",
+          "terms3": "- Tài khoản tham gia Chương Trình là tài khoản của công dân Việt Nam từ 22 đến 55 tuổi.",
+          "terms4": "- Mỗi Tài khoản chỉ được tham gia 01 (một) lần trong suốt Thời Gian Chương Trình và lần tham gia đó sẽ là lần tham gia đầu tiên và duy nhất. Những lần tham gia tiếp theo sẽ không được tính.",
+          "terms5": "- Và thỏa mãn đầy đủ các điều kiện ở Mục 9 của Thể lệ này.",
+          "terms6": "(sau đây gọi là “Tài khoản hợp lệ”)"
+        },
+        "SUBCONTENT8": {
+          "TITLE": "<strong>8. Tổng giá trị hàng hóa, dịch vụ dùng để khuyến mại:</strong> Tối đa 95,000,000 VNĐ (Bằng chữ: Chín mươi lăm triệu đồng chẵn).",
+          "CONTENT": "Tổng giá trị của hàng hóa, dịch vụ dùng để khuyến mại mà CUB thực hiện trong Chương Trình khuyến mại không được vượt quá 50% tổng giá trị của hàng hóa, dịch vụ được khuyến mại."
+        },
+        "SUBCONTENT9": {
+          "TITLE": "<strong>9. Nội dung chi tiết của Chương Trình khuyến mại:</strong>",
+          "terms1": {
+            "TITLE": "<strong>a) Cách thức tham gia</strong>",
+            "terms1": "- Tài khoản của người tham gia là tài khoản người dùng Zalo cá nhân tiếp cận với sản phẩm quảng cáo về dịch vụ cho vay tiêu dùng trực tuyến tại ứng dụng CUB Vietnam trong Chuyên mục Tiện ích tài chính Fiza trên ứng dụng Zalo.",
+            "terms2": {
+              "TITLE": "- Khi tham gia Chương Trình, người dùng ứng dụng Zalo thực hiện các hoạt động sau:",
+              "TERMS1": "• Bước 1: Đăng nhập vào tài khoản Zalo, truy cập Chuyên mục Tiện ích tài chính Fiza",
+              "TERMS2": "• Bước 2: Chọn “Cathay United Bank” tại mục Vay nhanh",
+              "TERMS3": "• Bước 3:  Chọn “Tải app Vay ngay”",
+              "TERMS4": "• Bước 4: Tải ứng dụng CUB Vietnam",
+              "TERMS5": "• Bước 5: Truy cập, điền thông tin và tạo tài khoản ứng dụng CUB Vietnam",
+              "TERMS6": "• Bước 6: Hoàn tất đăng ký hạn mức tín dụng trên ứng dụng CUB Vietnam"
+            }
+          },
+          "terms2": {
+            "TITLE": "<strong>b) Tặng quà</strong>",
+            "terms1": "CUB sẽ tặng Voucher cho tối đa 1,900 Tài khoản hợp lệ thực hiện đầy đủ các bước nhất và nhanh nhất theo Thể lệ này (“Người được nhận Voucher”). Quà tặng Voucher sẽ được gửi đến các Người được nhận Voucher chậm nhất vào ngày 12/12/2024 qua địa chỉ email đã sử dụng để tạo tài khoản ứng dụng CUB Vietnam.",
+            "terms2": "- Mỗi tài khoản hợp lệ chỉ nhận tối đa một quà tặng.",
+            "terms3": "- Quà tặng không được quy đổi ra tiền mặt."
+          }
+        },
+        "SUBCONTENT10": {
+          "TITLE": "<strong>10. Điều khoản chung:</strong>",
+          "terms1": "10.1. Trong trường hợp CUB phát hiện dấu hiệu gian lận, săn giải/quà tặng hoặc có mục đích, hành vi vi phạm quy định của Chương Trình hoặc có thực hiện bất kỳ hành động nào gây ảnh hưởng đến kết quả trung thực cuối cùng, tài khoản tham gia sẽ bị loại khỏi Chương Trình mà không cần thông báo trước cho người tham gia.",
+          "terms2": "10.2. Trường hợp có bất kỳ khoản phí, thuế nào phát sinh do việc nhận quà tặng khuyến mại từ Chương Trình khuyến mại này, người tham gia theo đây đồng ý chịu trách nhiệm tự kê khai và đóng các khoản phí, thuế nêu trên với cơ quan nhà nước có thẩm quyền (nếu có).",
+          "terms3": "10.3. Trong trường hợp xảy ra tranh chấp liên quan đến Chương Trình khuyến mại này, tranh chấp sẽ được giải quyết theo quy định pháp luật. CUB được miễn trách nhiệm đối với các trường hợp thuộc sự kiện bất khả kháng hoặc các trường hợp khác theo quy định pháp luật.",
+          "terms4": "10.4. Thể lệ này được đăng tải (i) tại Chuyên mục Tiện ích tài chính Fiza trên ứng dụng Zalo và (ii) trên website của CUB. Trong trường hợp có sự thay đổi, cập nhật về thể lệ Chương Trình, CUB sẽ thông báo qua trang web <a class=\"linkText\"  href=\"https://www.vn.cathaybk.com/home\">https://www.vn.cathaybk.com/home</a> và cập nhật thay đổi trên các kênh tại khoản này.",
+          "terms5": "10.5. Bằng việc tham gia Chương Trình, người tham gia cho phép CUB sử dụng hình ảnh, thông tin, dữ liệu cá nhân của người tham gia cho mục đích xử lý dữ liệu liên quan đến hoạt động quảng cáo, tiếp thị, quảng bá thương hiệu, tổ chức trao giải/quà tặng (bao gồm cả việc chia sẻ dữ liệu cho bên thứ ba có hợp tác với CUB) trên các phương tiện truyền thông mà không cần trả bất kỳ khoản phí nào. CUB cam kết bảo vệ dữ liệu cá nhân, tuân thủ Chính Sách Về Quyền Riêng Tư và Thông báo về việc thu thập, xử lý và sử dụng dữ liệu cá nhân/thông tin của người tiêu dùng áp dụng cho khách hàng cá nhân của sản phẩm vay tiêu dùng trực tuyến tại Ngân hàng Cathay United Bank – Chi nhánh Thành phố Hồ Chí Minh được niêm yết trên website của CUB, và các quy định pháp luật khác đang có hiệu lực áp dụng trong từng thời kỳ.",
+          "terms6": "10.6. Các quà tặng không thể chuyển nhượng dưới bất kỳ hình thức nào.",
+          "terms7": "10.7. Mọi thắc mắc liên quan đến Chương Trình khuyến mại, người tham gia liên hệ với Phòng Dịch vụ khách hàng của CUB – Điện thoại: <a class=\"linkText\" href=\"tel:+842836226836\">028 3622 6836</a> từ Thứ Hai đến Thứ Sáu (08:30 – 17:30), hoặc địa chỉ email:  <a class=\"linkText\" href=\"mailto:contact.CUB@vn.cathaybk.com\">contact.CUB@vn.cathaybk.com</a>."
+        }
+      }
+    },
+    "NEWS7": {
+      "TITLE": "THỂ LỆ CHƯƠNG TRÌNH KHUYẾN MẠI “ĐOÁN ĐÚNG TÍNH NĂNG, TRÚNG NGAY VOUCHER XỊN”",
+      "TITLE1": "THỂ LỆ CHƯƠNG TRÌNH KHUYẾN MẠI “ĐOÁN ĐÚNG TÍNH NĂNG, TRÚNG NGAY VOUCHER XỊN”",
+      "SUBCONTENT": {
+        "SUBCONTENT1": {
+          "TITLE": "<strong>1. Tên Chương Trình khuyến mại:</strong> “ĐOÁN ĐÚNG TÍNH NĂNG - TRÚNG NGAY VOUCHER XỊN” (“Chương Trình”).",
+          "CONTENT": "“ĐOÁN ĐÚNG TÍNH NĂNG - TRÚNG NGAY VOUCHER XỊN” (“Chương Trình”)."
+        },
+        "SUBCONTENT2": {
+          "TITLE": "<strong>2. Địa bàn (phạm vi) khuyến mại:</strong> Toàn quốc",
+          "CONTENT": "Toàn quốc"
+        },
+        "SUBCONTENT3": {
+          "TITLE": "<strong>3. Hình thức khuyến mại:</strong> Bán hàng, cung ứng dịch vụ có kèm theo phiếu dự thi cho khách hàng để chọn người trao thưởng theo thể lệ và giải thưởng đã công bố (hoặc các hình thức tổ chức thi và trao thưởng khác tương đương)",
+          "CONTENT": "Bán hàng, cung ứng dịch vụ có kèm theo phiếu dự thi cho khách hàng để chọn người trao thưởng theo thể lệ và giải thưởng đã công bố (hoặc các hình thức tổ chức thi và trao thưởng khác tương đương)"
+        },
+        "SUBCONTENT4": {
+          "TITLE": "<strong>4. Thời gian khuyến mại:</strong> Từ ngày 11/11/2024 đến hết ngày 25/11/2024 (“Thời Gian Chương Trình”).",
+          "CONTENT": "Từ ngày 11/11/2024 đến hết ngày 25/11/2024 (“Thời Gian Chương Trình”)."
+        },
+        "SUBCONTENT5": {
+          "TITLE": "<strong>5. Hàng hóa, dịch vụ khuyến mại:</strong>",
+          "terms1": "Ngân hàng Cathay United Bank – Chi nhánh Thành phố Hồ Chí Minh (“CUB”) sử dụng hình thức khuyến mại nêu trên để tăng độ nhận diện và phủ sóng (chỉ về tên gọi/thương hiệu) của Trang Facebook Fanpage của CUB tại địa chỉ: <a class=\"linkText\" href=\"https://www.facebook.com/cathayunitedbankvietnamofficial\">https://www.facebook.com/cathayunitedbankvietnamofficial</a> (“Trang Facebook Fanpage của CUB”) và trang Zalo OA Cathay United Bank chi nhánh TP HCM tại địa chỉ: <a class=\"linkText\" href=\"https://bit.ly/ZaloCUB\">bit.ly/ZaloCUB</a>."
+        },
+        "SUBCONTENT6": {
+          "TITLE": "<strong>6. Hàng hóa, dịch vụ dùng để khuyến mại:</strong> E-voucher Got-it trị giá 100,000 VNĐ/e-voucher (“Voucher”).",
+          "CONTENT": "E-voucher Got-it trị giá 100,000 VNĐ/e-voucher (“Voucher”)."
+        },
+        "SUBCONTENT7": {
+          "TITLE": "<strong>7. Khách hàng của Chương Trình khuyến mại (đối tượng được hưởng khuyến mại):</strong>",
+          "CONTENT": "Chương Trình áp dụng cho tài khoản tham gia Chương trình là tài khoản Facebook thật (sau đây gọi là “Tài khoản” hoặc “người chơi”) thỏa mãn các điều kiện sau (sau đây gọi là “Tài khoản hợp lệ”): ",
+          "terms1": "- Tài khoản của cá nhân, không phải là trang fanpage hay tài khoản tổ chức.",
+          "terms2": "- Tài khoản từng có bài viết (hoặc bất kỳ hoạt động nào) diễn ra ít nhất 6 tháng trước đó, tính đến ngày bắt đầu Thời Gian Chương Trình;",
+          "terms3": "- Tài khoản không phải là tài khoản được lập ra chỉ với mục đích săn giải, và có tương tác công khai trên Facebook ít nhất 01 (một) tháng trước tính đến ngày bắt đầu Thời Gian Chương Trình.",
+          "terms4": "- Tài khoản tham gia Chương Trình là tài khoản của công dân Việt Nam và có ít nhất 100 bạn bè trên Facebook (ở chế độ công khai).",
+          "terms5": "- Mỗi Tài khoản chỉ được tham gia 01 (một) lần trong suốt Thời Gian Chương Trình.",
+          "terms6": "- Không phải là Tài khoản của nhân viên đang làm việc tại CUB.",
+          "terms7": "- Và thỏa mãn các điều kiện ở Mục 10 của Thể lệ này."
+        },
+        "SUBCONTENT8": {
+          "TITLE": "<strong>8. Cơ cấu giải thưởng (nội dung giải thưởng, giá trị giải thưởng, số lượng giải thưởng):</strong>",
+          "CONTENT": "<table><tr><th>Nội dung giải thưởng</th><th>Số lượng giải thưởng</th><th>Tổng giá trị giải thưởng (VNĐ)</th></tr><tr><td class=\"tdW450 textCenter\">CUB sẽ chọn ra tối đa 100 Tài khoản hợp lệ có Bài tham gia hợp lệ chính xác nhất, đầy đủ nhất và nhanh nhất đối với các câu đố, trò chơi (“mini game”) được đặt ra bởi CUB để trao Voucher</td><td class=\"tdW250 textCenter\">Tối đa 100 Voucher mệnh giá 100,000 VNĐ</td><td class=\"textCenter\">Tối đa 10,000,000</td></tr><tr><td colspan=\"3\" class=\"textReight\">Tổng giải thưởng: Tối đa 10,000,000 VNĐ<br>(Mười triệu đồng chẵn)</td></tr></table>"
+        },
+        "SUBCONTENT9": {
+          "TITLE": "<strong>9. Tổng giá trị hàng hóa, dịch vụ dùng để khuyến mại:</strong> Tối đa 10,000,000 VNĐ (Bằng chữ: Mười triệu đồng chẵn).",
+          "CONTENT": "Tối đa 10,000,000 VNĐ (Bằng chữ: Mười triệu đồng chẵn)."
+        },
+        "SUBCONTENT10": {
+          "TITLE": "<strong>10. Nội dung chi tiết của Chương Trình khuyến mại:</strong>",
+          "terms1": {
+            "TITLE": "<strong>a) Cách thức tham gia</strong>",
+            "terms1": "- Tài khoản của người chơi phải có đầy đủ ảnh đại diện, ảnh bìa, có phát sinh tương tác ở chế độ công khai trên dòng thời gian (ngoài các hoạt động chia sẻ minigame) trong 03 (ba) tuần gần nhất trước thời điểm bắt đầu Thời Gian Chương Trình.",
+            "terms2": "- Minigame sẽ được tổ chức trên Trang Facebook Fanpage của CUB.",
+            "terms3": {
+              "TITLE": "- Khi tham gia minigame, Tài khoản của người chơi thực hiện các hoạt động sau:",
+              "TERMS1": "• Bước 1: Thích (Like)/ Theo dõi (Follow) Trang Facebook Fanpage của CUB.",
+              "TERMS2": "• Bước 2: Tương tác (bằng các nút Thích, Thả tim), chia sẻ nội dung bài minigame ở chế độ công khai, bình luận trả lời minigame kèm theo cú pháp “Có Cathay cân cả thảy #CathayUnitedBank #CoCathaycancathay #CUBVietnam”<br>Ví dụ: ĐĂNG KÝ NHIỀU LẦN GIẢI NGÂN NHIỀU LẦN, Có Cathay cân cả thảy #CathayUnitedBank #CoCathaycancathay #CUBVietnam<br>Trong đó, ĐĂNG KÝ NHIỀU LẦN GIẢI NGÂN NHIỀU LẦN là đáp án trả lời minigame, kèm theo cú pháp yêu cầu.",
+              "TERMS3": "• Bước 3: Theo dõi kênh Zalo OA của CUB tại <a class=\"linkText\" href=\"https://bit.ly/ZaloCUB\">bit.ly/ZaloCUB</a>"
+            }
+          },
+          "terms2": {
+            "TITLE": "<strong>b) Cách thức xác định Bài tham gia hợp lệ</strong>",
+            "terms1": "- Bài tham gia được tính là hợp lệ khi thực hiện đầy đủ các bước theo yêu cầu của minigame như mục a) nói trên;",
+            "terms2": "- Bài tham gia được xem là hợp lệ nếu còn tồn tại, có thể nhìn thấy được ở chế độ công khai trong suốt Thời Gian Chương Trình và cho đến khi CUB công bố danh sách người chơi đạt giải thưởng;",
+            "terms3": "- Mỗi người chơi chỉ được bình luận 01 (một) lần, và bình luận đó sẽ là bình luận đầu tiên và duy nhất. Những bình luận tiếp theo sẽ không được tính;",
+            "terms4": "- Người chơi không được sửa bình luận sau khi đã bình luận."
+          },
+          "terms3": {
+            "TITLE": "<strong>c) Trao thưởng</strong>",
+            "terms1": "- CUB sẽ chọn ra tối đa 100 Tài khoản hợp lệ có Bài tham gia hợp lệ chính xác nhất, đầy đủ nhất và nhanh nhất đối với các minigame được đặt ra bởi CUB để trao Voucher. Bài đăng danh sách người chơi đạt giải thưởng (“Bài đăng”) dự kiến sẽ được công bố vào ngày 02/12/2024 trên Trang Facebook Fanpage của CUB.",
+            "terms2": "- Sau khi danh sách người chơi đạt giải thưởng được CUB công bố, các Tài khoản hợp lệ phải cung cấp thông tin với mục đích nhận thưởng cho CUB thông qua việc điền thông tin vào link khảo sát survey cake tại Bài đăng. Hạn chót hoàn thành việc điền thông tin này là ngày 05/12/2024. Quá thời hạn này mà CUB chưa nhận được thông tin của người chơi đạt giải thì được xem như người chơi đạt giải từ chối nhận Voucher, CUB được miễn trừ trách nhiệm đối với mọi khiếu nại của người chơi đạt giải cho các trường hợp không gửi hoặc gửi thông tin nhận thưởng trễ hơn hạn chót đã thông báo.",
+            "terms3": "- Mỗi người chơi chỉ nhận tối đa một giải thưởng.",
+            "terms4": "- Voucher sẽ được CUB hoặc nhà cung cấp Got-it gửi dưới dạng tin nhắn SMS đến số điện thoại được người chơi đạt giải thưởng cung cấp. CUB không chịu trách nhiệm hoặc giải quyết khiếu nại nếu người chơi cung cấp thông tin số điện thoại không đúng, hoặc có nhu cầu thay đổi số điện thoại khác sau khi đã hoàn tất gửi link khảo sát.",
+            "terms5": "- Giải thưởng không được quy đổi ra tiền mặt.",
+            "terms6": "- Thời gian CUB công bố danh sách người chơi đạt giải thưởng và trao giải thưởng của Chương Trình sẽ không vượt quá 45 ngày kể từ ngày kết thúc Thời Gian Chương Trình."
+          }
+        },
+        "SUBCONTENT11": {
+          "TITLE": "<strong>11. Điều khoản chung:</strong>",
+          "terms1": "11.1 Trong trường hợp CUB phát hiện dấu hiệu gian lận, săn giải hoặc có mục đích, hành vi vi phạm quy định của Chương Trình hoặc có thực hiện bất kỳ hành động nào gây ảnh hưởng đến kết quả trung thực cuối cùng, bài dự thi sẽ bị loại khỏi Chương Trình mà không cần thông báo trước cho người chơi.",
+          "terms2": "11.2 Trường hợp có bất kỳ khoản phí, thuế nào phát sinh do việc nhận quà tặng khuyến mại từ Chương Trình khuyến mại này, người chơi theo đây đồng ý chịu trách nhiệm tự kê khai và đóng các khoản phí, thuế nêu trên với cơ quan nhà nước có thẩm quyền (nếu có).",
+          "terms3": "11.3 Trong trường hợp xảy ra tranh chấp liên quan đến Chương Trình khuyến mại này, tranh chấp sẽ được giải quyết theo quy định pháp luật. CUB được miễn trách nhiệm đối với các trường hợp thuộc sự kiện bất khả kháng hoặc các trường hợp khác theo quy định pháp luật.",
+          "terms4": "11.4 Thể lệ này được đăng tải trên website của CUB, khi có sự thay đổi liên quan đến Chương Trình khuyến mại, CUB sẽ đăng tải nội dung thay đổi tại địa chỉ website: <a class=\"linkText\"  href=\"https://www.vn.cathaybk.com/home\">https://www.vn.cathaybk.com/home</a>.",
+          "terms5": "11.5 Bằng việc tham gia minigame và điền thông tin vào link khảo sát, người chơi cho phép CUB sử dụng hình ảnh, thông tin, dữ liệu cá nhân của người chơi cho mục đích xử lý dữ liệu liên quan đến hoạt động quảng cáo, tiếp thị, quảng bá thương hiệu, tổ chức trao giải (bao gồm cả việc chia sẻ dữ liệu cho bên thứ ba có hợp tác với CUB) trên các phương tiện truyền thông mà không cần trả bất kỳ khoản phí nào. CUB cam kết bảo vệ dữ liệu cá nhân, tuân thủ Chính Sách Về Quyền Riêng Tư và Thông báo về việc thu thập, xử lý và sử dụng dữ liệu cá nhân/thông tin của người tiêu dùng áp dụng cho khách hàng cá nhân của sản phẩm vay tiêu dùng trực tuyến tại Ngân hàng Cathay United Bank – Chi nhánh Thành phố Hồ Chí Minh được niêm yết trên website của CUB, và các quy định pháp luật khác đang có hiệu lực áp dụng trong từng thời kỳ.",
+          "terms6": "11.6 Các giải thưởng không thể chuyển nhượng dưới bất kỳ hình thức nào.",
+          "terms7": "11.7 Mọi thắc mắc liên quan đến Chương Trình khuyến mại, người chơi liên hệ với Phòng Dịch vụ khách hàng của CUB – Điện thoại: <a class=\"linkText\" href=\"tel:+842836226836\">028 3622 6836</a> từ Thứ Hai đến Thứ Sáu (08:30 – 17:30), hoặc địa chỉ email: <a class=\"linkText\" href=\"mailto:contact.CUB@vn.cathaybk.com\">contact.CUB@vn.cathaybk.com</a>"
+        }
+      }
+    },
+    "NEWS8": {
+      "TITLE": "THỂ LỆ CHƯƠNG TRÌNH “KHẢO SÁT NGAY, NHẬN QUÀ LIỀN TAY!”",
+      "TITLE1": "THỂ LỆ CHƯƠNG TRÌNH “KHẢO SÁT NGAY, NHẬN QUÀ LIỀN TAY!”",
+      "SUBCONTENT": {
+        "SUBCONTENT1": {
+          "TITLE": "<strong>1. Tên Chương Trình khuyến mại:</strong> Ngân hàng Cathay United Bank – Chi nhánh Thành phố Hồ Chí Minh (“CUB”) trân trọng giới thiệu Chương Trình khuyến mại “KHẢO SÁT NGAY, NHẬN QUÀ LIỀN TAY” (“Chương Trình”).",
+          "CONTENT": ""
+        },
+        "SUBCONTENT2": {
+          "TITLE": "<strong>2. Địa bàn (phạm vi) khuyến mại:</strong> Toàn quốc",
+          "CONTENT": ""
+        },
+        "SUBCONTENT3": {
+          "TITLE": "<strong>3. Hình thức khuyến mại:</strong> Tặng hàng hóa, cung ứng dịch vụ không thu tiền có kèm theo việc mua bán hàng hóa, cung ứng dịch vụ",
+          "CONTENT": ""
+        },
+        "SUBCONTENT4": {
+          "TITLE": "<strong>4. Thời gian khuyến mại:</strong> Từ ngày 25/11/2024 đến hết ngày 31/12/2024 (“Thời Gian Chương Trình”). Chương trình có thể kết thúc sớm hơn nếu đạt đủ số lượng khảo sát trước thời hạn.",
+          "CONTENT": ""
+        },
+        "SUBCONTENT5": {
+          "TITLE": "<strong>5. Hàng hóa, dịch vụ khuyến mại:</strong>",
+          "terms1": "- Sản phẩm cho vay tiêu dùng trực tuyến của CUB;",
+          "terms2": "- Ứng dụng cho vay tiêu dùng trực tuyến của CUB (“Ứng dụng CUB Vietnam”)."
+        },
+        "SUBCONTENT6": {
+          "TITLE": "<strong>6. Hàng hóa, dịch vụ dùng để khuyến mại:</strong> E-voucher Got-it trị giá 50,000 VNĐ/e-voucher (“Voucher”).",
+          "CONTENT": ""
+        },
+        "SUBCONTENT7": {
+          "TITLE": "<strong>7. Khách hàng của Chương Trình khuyến mại (đối tượng được hưởng khuyến mại):</strong> Chương Trình áp dụng cho Khách hàng của CUB đang có hạn mức tín dụng trên ứng dụng CUB Vietnam tại thời điểm 15/11/2024 (sau đây gọi là “Khách hàng của Chương Trình”): ",
+          "CONTENT": ""
+        },
+        "SUBCONTENT8": {
+          "TITLE": "<strong>8. Cơ cấu quà tặng khuyến mại (nội dung quà tặng, giá trị quà tặng, số lượng quà tặng): </strong>",
+          "CONTENT": "<table><tr><th>Nội dung quà tặng</th><th>Số lượng quà tặng</th><th>Tổng giá trị quà tặng (VNĐ)</th></tr><tr><td class=\"tdW450 textCenter\">CUB sẽ chọn ra tối đa 1,999 Khách hàng của Chương Trình có Phiếu kết quả khảo sát hợp lệ nhất quán nhất, đầy đủ nhất và nhanh nhất đối với bảng khảo sát được đặt ra bởi CUB để trao Voucher</td><td class=\"tdW250 textCenter\">Tối đa 1,999 Voucher mệnh giá 50,000 VNĐ/Voucher</td><td class=\"textCenter\">Tối đa 99,950,000</td></tr><tr><td colspan=\"3\" class=\"textReight\"><strong>Tổng giải thưởng: Tối đa 99,950,000 VNĐ</strong><br><strong>(Chín mươi chín triệu chín trăm năm mươi nghìn đồng chẵn)</strong></td></tr></table>"
+        },
+        "SUBCONTENT9": {
+          "TITLE": "<strong>9. Tổng giá trị hàng hóa, dịch vụ dùng để khuyến mại:</strong> Tối đa 99,950,000 VNĐ (Bằng chữ: Chín mươi chín triệu chín trăm năm mươi nghìn đồng chẵn).",
+          "CONTENT": ""
+        },
+        "SUBCONTENT10": {
+          "TITLE": "<strong>10. Nội dung chi tiết của Chương Trình khuyến mại:</strong>",
+          "terms1": {
+            "TITLE": "<strong>a) Cách thức tham gia</strong>",
+            "terms1": "- Khách hàng tham gia khảo sát phải có hạn mức tín dụng đã được kích hoạt và còn hiệu lực sử dụng tại thời điểm 15/11/2024. Để làm rõ, hạn mức tín dụng có thể được kích hoạt trước hoặc tại thời điểm 15/11/2024, việc kích hoạt thành công diễn ra sau khi được CUB phê duyệt cấp hạn mức tín dụng trên ứng dụng CUB Vietnam và Khách hàng giao kết Bộ Hợp đồng thành công với CUB.",
+            "terms2": "- Khảo sát sẽ được CUB gửi đến Khách hàng qua <strong>Trung tâm Thông báo</strong> của ứng dụng CUB Vietnam, Khách hàng tham gia khảo sát cần thực hiện trả lời khảo sát trên ứng dụng CUB Vietnam.",
+            "terms3": {
+              "TITLE": "- Khi tham gia Chương Trình, Khách hàng tham gia khảo sát sẽ thực hiện các hoạt động sau:<br><br>",
+              "TERMS1": "• Bước 1: Đăng nhập vào ứng dụng CUB Vietnam bằng tài khoản đã đăng ký với CUB.<br><br>",
+              "TERMS2": "• Bước 2: Kiểm tra phần <strong>Trung tâm Thông báo</strong> nội dung thông báo “KHẢO SÁT NGAY NHẬN QUÀ LIỀN TAY” (Thông báo chỉ gửi đến cho Khách hàng của Chương Trình).<br><br>",
+              "TERMS3": "• Bước 3: Nhấp vào <strong>TIẾN HÀNH KHẢO SÁT</strong> trong nội dung thông báo và dành 6-8 phút hoàn thành Phiếu khảo sát.<br><br>"
+            }
+          },
+          "terms2": {
+            "TITLE": "<strong>b) Cách thức xác định Phiếu kết quả khảo sát (“Khảo sát”) hợp lệ</strong>",
+            "terms1": "- Phiếu kết quả khảo sát được tính là hợp lệ khi thực hiện đầy đủ các bước theo yêu cầu của Chương Trình như mục a) nói trên;",
+            "terms2": "- Phiếu kết quả khảo sát được xem là hợp lệ nếu hoàn thành đầy đủ và nhất quán trong suốt Thời Gian Chương Trình;",
+            "terms3": "- Mỗi Khách hàng chỉ được thực hiện Khảo sát 01 (một) lần, và kết quả Khảo sát đó sẽ là kết quả Khảo sát đầu tiên và duy nhất. Những kết quả Khảo sát tiếp theo sẽ không được tính.",
+            "terms4": "- Khách hàng cần trả lời đầy đủ tất cả các câu hỏi và cung cấp thông tin chính xác khi thực hiện Khảo sát."
+          },
+          "terms3": {
+            "TITLE": "<strong>c) Trao quà tặng</strong>",
+            "terms1": "- Tối đa 1,999 Khách hàng có kết quả Khảo sát hợp lệ được trao quà tặng.",
+            "terms2": "- Mỗi người tham gia khảo sát chỉ nhận tối đa một quà tặng.",
+            "terms3": "- Voucher sẽ được CUB hoặc nhà cung cấp Got-it gửi tới email của Khách hàng đã cung cấp cho CUB thông qua việc điền vào Phiếu kết quả khảo sát và email của Khách hàng phải là email đã đăng ký trên ứng dụng CUB Vietnam. CUB không chịu trách nhiệm hoặc giải quyết khiếu nại nếu Khách hàng tham gia khảo sát cung cấp thông tin email không đúng, hoặc có nhu cầu thay đổi email khác sau khi đã hoàn tất khảo sát.",
+            "terms4": "- Quà tặng không được quy đổi ra tiền mặt. Việc sử dụng quà tặng sẽ được áp dụng theo chính sách của nhà cung cấp Got-it trong từng thời kỳ."
+          }
+        },
+        "SUBCONTENT11": {
+          "TITLE": "<strong>11. Điều khoản chung:</strong>",
+          "terms1": "11.1. Trong trường hợp CUB phát hiện dấu hiệu gian lận, săn quà tặng hoặc có mục đích, hành vi vi phạm quy định của Chương Trình hoặc có thực hiện bất kỳ hành động nào gây ảnh hưởng đến kết quả trung thực cuối cùng, phiếu kết quả khảo sát sẽ bị loại khỏi Chương Trình mà không cần thông báo trước cho Khách hàng đó.",
+          "terms2": "11.2. Trường hợp có bất kỳ khoản phí, thuế nào phát sinh do việc nhận quà tặng khuyến mại từ Chương Trình khuyến mại này, Khách hàng theo đây đồng ý chịu trách nhiệm tự kê khai và đóng các khoản phí, thuế nêu trên với cơ quan nhà nước có thẩm quyền (nếu có).",
+          "terms3": "11.3. Trong trường hợp xảy ra tranh chấp liên quan đến Chương Trình khuyến mại này, tranh chấp sẽ được giải quyết theo quy định pháp luật. CUB được miễn trách nhiệm đối với các trường hợp thuộc sự kiện bất khả kháng hoặc các trường hợp khác theo quy định pháp luật.",
+          "terms4": "11.4. Thể lệ này được đăng tải trên website của CUB, khi có sự thay đổi liên quan đến Chương Trình khuyến mại, CUB sẽ đăng tải nội dung thay đổi tại địa chỉ website: <a class=\"linkText\"  href=\"https://www.vn.cathaybk.com/home\">https://www.vn.cathaybk.com/home</a>.",
+          "terms5": "11.5. Bằng việc tham gia Chương Trình, Khách hàng cho phép CUB sử dụng hình ảnh, thông tin, dữ liệu cá nhân cho mục đích xử lý dữ liệu liên quan đến hoạt động quảng cáo, tiếp thị, quảng bá thương hiệu, tổ chức trao giải/quà tặng (bao gồm cả việc chia sẻ dữ liệu cho bên thứ ba có hợp tác với CUB) trên các phương tiện truyền thông mà không cần trả bất kỳ khoản phí nào. CUB cam kết bảo vệ dữ liệu cá nhân, tuân thủ Chính Sách Về Quyền Riêng Tư và Thông báo về việc thu thập, xử lý và sử dụng dữ liệu cá nhân/thông tin của người tiêu dùng áp dụng cho khách hàng cá nhân của sản phẩm vay tiêu dùng trực tuyến tại Ngân hàng Cathay United Bank – Chi nhánh Thành phố Hồ Chí Minh được niêm yết trên website của CUB, và các quy định pháp luật khác đang có hiệu lực áp dụng trong từng thời kỳ.",
+          "terms6": "11.6. Quà tặng không thể chuyển nhượng dưới bất kỳ hình thức nào.",
+          "terms7": "11.7. Mọi thắc mắc liên quan đến Chương Trình khuyến mại, người tham gia liên hệ với Phòng Dịch vụ khách hàng của CUB – Điện thoại: <a class=\"linkText\" href=\"tel:+842836226836\">028 3622 6836</a> từ Thứ Hai đến Thứ Sáu (08:30 – 17:30), hoặc địa chỉ email: <a class=\"linkText\" href=\"mailto:contact.CUB@vn.cathaybk.com\">contact.CUB@vn.cathaybk.com</a>."
+        }
+      }
+    },
+    "NEWS9": {
+    "TITLE": "ĐÓN SIÊU ƯU ĐÃI, RƯỚC NGÀN LỘC PHÁT",
+    "TITLE1": "ĐÓN SIÊU ƯU ĐÃI, RƯỚC NGÀN LỘC PHÁT",
+    "SUBCONTENT": {
+      "SUBCONTENT1": {
+        "TITLE": "Bạn đã có kế hoạch gì cho năm mới chưa? Hãy để Ngân hàng Cathay United Bank – Chi nhánh TP. Hồ Chí Minh cùng bạn thực hiện những dự định đó với sản phẩm <strong>LÃI SUẤT SIÊU ƯU ĐÃI TỪ 0.68%/tháng (*)<strong>",
+        "CONTENT": ""
+      },
+      "SUBCONTENT2": {
+        "TITLE": "Ngoài ra, 200 khách hàng giải ngân thành công đầu tiên sẽ nhận được phần quà Nón bảo hiểm với logo Cathay United Bank cực chất! (**)",
+        "CONTENT": ""
+      },
+      "SUBCONTENT3": {
+        "TITLE": "Sản phẩm nêu trên chỉ được áp dụng từ ngày <strong>10/12/2024 đến hết 24/01/2025</strong> nên bạn hãy nhanh tay đăng ký hạn mức tín dụng và đề xuất giải ngân với ứng dụng CUB Vietnam ngay!",
+        "CONTENT": ""
+      },
+      "SUBCONTENT4": {
+        "TITLE": "Một năm mới phát tài, phát lộc với CUB, đăng ký ngay <a class=\"linkText\" href=\"https://cubvn.onelink.me/13iZ/ppweb\">tại đây</a>.",
+        "CONTENT": ""
+      },
+      "SUBCONTENT5": {
+        "TITLE": "Hoặc quét QR code bên dưới"
+      },
+      "SUBCONTENT6": {
+        "TITLE": "<i>(*) Áp dụng cho khách hàng phát sinh khoản giải ngân từ 21,000,000 VND trở lên. Lãi suất phẳng được quy đổi từ lãi suất theo dư nợ giảm dần trên cơ sở một năm có 365 ngày.</i>"
+      },
+      "SUBCONTENT7": {
+        "TITLE": "<i>(**) Vui lòng xem thêm chi tiết thể lệ chương trình <a class=\"linkText\" href=\"assets/file/The-le-chuong-trinh-khuyen-mai-Don-sieu-uu-dai-ruoc-ngan-loc-phat.pdf\" target=\"_blank\">tại đây</a></i>."
+      }
+    }
+  },
+  "NEWS10": {
+    "TITLE": "THỂ LỆ CHƯƠNG TRÌNH KHUYẾN MẠI “ĐÓN TRẢI NGHIỆM MỚI, RƯỚC QUÀ LIỀN TAY”",
+    "TITLE1": "THỂ LỆ CHƯƠNG TRÌNH KHUYẾN MẠI “ĐÓN TRẢI NGHIỆM MỚI, RƯỚC QUÀ LIỀN TAY”",
+    "SUBCONTENT": {
+      "SUBCONTENT1": {
+        "TITLE": "<strong>1. Tên Chương Trình khuyến mại:</strong> Ngân hàng Cathay United Bank – Chi nhánh Thành phố Hồ Chí Minh (“CUBHCM”) trân trọng giới thiệu Chương Trình khuyến mại “ĐÓN TRẢI NGHIỆM MỚI, RƯỚC QUÀ LIỀN TAY” (“Chương Trình”).",
+        "CONTENT": ""
+      },
+      "SUBCONTENT2": {
+        "TITLE": "<strong>2. Địa bàn (phạm vi) khuyến mại:</strong> Hà Nội và Thành phố Hồ Chí Minh.",
+        "CONTENT": ""
+      },
+      "SUBCONTENT3": {
+        "TITLE": "<strong>3. Hình thức khuyến mại:</strong> Tặng hàng hóa, cung ứng dịch vụ không thu tiền không kèm theo việc mua bán hàng hóa, cung ứng dịch vụ.",
+        "CONTENT": ""
+      },
+      "SUBCONTENT4": {
+        "TITLE": "<strong>4. Thời gian khuyến mại:</strong> Vào các ngày 16/12, 17/12, 23/12, 24/12 của năm 2024. (“Thời Gian Chương Trình”). Thời Gian Chương Trình của từng ngày nêu trên sẽ kết thúc khi đã trao hết số lượng quà tặng của từng ngày.",
+        "CONTENT": ""
+      },
+      "SUBCONTENT5": {
+        "TITLE": "<strong>5. Hàng hóa, dịch vụ khuyến mại:</strong>",
+        "CONTENT": "Dịch vụ cho vay tiêu dùng trực tuyến tại ứng dụng CUB Vietnam, với hạn mức tín dụng tối đa là 40,000,000 VNĐ."
+      },
+      "SUBCONTENT6": {
+        "TITLE": "<strong>6. Hàng hóa, dịch vụ dùng để khuyến mại:</strong>",
+        "CONTENT": "<table><tr><th>STT</th><th>Quà tặng</th><th>Số lượng</th><th>Đơn giá (VNĐ)</th><th>Ghi chú</th></tr><tr><td>1</td><td>Voucher giấy Got-it 50,000 đồng</td><td>750</td><td>50,000</td><td rowspan = 6>Số lượng quà tặng theo từng loại sẽ được chia đều(chia 5) cho từng ngày trong Thời Gian Chương Trình.</td></tr><tr><td>2</td><td>Túi tote cao cấp in logo Cathay United Bank</td><td>80</td><td>47,000</td></tr><tr><td>3</td><td>Áo mưa cao cấp in logo Cathay United Bank</td><td>80</td><td>104,000</td></tr><tr><td>4</td><td>Dù gấp 2 cao cấp in logo Cathay United Bank</td><td>80</td><td>133,000</td></tr><tr><td>5</td><td>Gối cổ văn phòng cao cấp in logo Cathay United Bank</td><td>80</td><td>84,000</td></tr>"
+      },
+      "SUBCONTENT7": {
+        "TITLE": "<strong>7. Tổng giá trị hàng hóa, dịch vụ dùng để khuyến mại:</strong> là tổng giá trị của toàn bộ số lượng quà tặng tại Mục 6 nêu trên và không vượt quá 70,000,000 VNĐ (Bằng chữ: Bảy mươi triệu đồng chẵn)."
+      },
+      "SUBCONTENT8": {
+        "TITLE": "<strong>8. Nội dung chi tiết của Chương Trình khuyến mại:</strong>",
+        "terms1" : {
+          "TITLE": "<strong>a)  Quà tặng và điều kiện nhận quà tặng</strong>"
+        },
+        "terms2" : {
+          "TITLE": "<table><tr><th>Hạng mục</th><th>Điều kiện</th><th>Quà tặng tương ứng</th></tr><tr><td>Hạng mục 1</td><td>Mỗi người tham gia thực hiện đầy đủ các bước sau và được nhân viên CUBHCM xác nhận sẽ nhận được quà tặng tương ứng: <br></br>1. Tải ứng dụng CUB Vietnam thông qua việc quét mã QR tại standee ở các địa điểm của Chương Trình và tạo tài khoản.<br></br>2. Nhấn Theo dõi/Follow trang Facebook Cathay United Bank tại <a class=\"linkText\"  href=\"https://bit.ly/FacebookCUB\" target=\"_blank\">bit.ly/FacebookCUB</a> và Thích/Like bài viết được Ghim đầu trang.<br></br>3.  Nhấn Theo dõi/Follow kênh Zalo OA Cathay United Bank chi nhánh TP HCM tại <a class=\"linkText\"  href=\"https://bit.ly/ZaloCUB\" target=\"_blank\">bit.ly/ZaloCUB</a>.<br></br>4. Hoàn thành khảo sát trực tuyến thông qua việc quét mã QR do nhân viên CUBHCM cung cấp tại địa điểm của Chương Trình.</td><td>Voucher giấy Got-it 50,000 đồng</td></tr><tr><td>Hạng mục 2</td><td>Mỗi người tham gia hoàn tất quy trình đăng ký Hạn mức tín dụng trên ứng dụng CUB Vietnam (bất kể có được cấp Hạn mức tín dụng hay không) và được nhân viên CUBHCM xác nhận sẽ nhận được quà tặng tương ứng.</td><td>Tùy chọn 1 trong 4 quà tặng: Áo mưa, Túi tote, Dù hoặc Gối cổ</td></tr>",
+          "terms1": "-  Mỗi người tham gia đáp ứng đầy đủ các điều kiện nêu trên chỉ được nhận tối đa 01 (một) quà tặng/Hạng mục trong suốt Thời Gian Chương Trình.",
+          "terms2": "-  Chương Trình khuyến mại chỉ trao quà tặng trong phạm vi tổng số lượng quà tặng tại Mục 6 Thể lệ này. "
+        },
+        "terms3" : {
+          "TITLE": "<strong>b)  Cách thức nhận quà tặng</strong>",
+          "terms1": "-  Khách hàng đủ điều kiện nhận quà tặng phải ký xác nhận theo mẫu của CUBHCM tại địa điểm của Chương Trình.",
+          "terms2": "-  CUBHCM được miễn trách nhiệm giải quyết mọi khiếu nại liên quan đến việc nhận quà tặng sau khi người tham gia đã nhận quà tặng và ký xác nhận.",
+          "terms3": "-  Quà tặng không được quy đổi ra tiền mặt dưới bất kỳ hình thức nào. "
+        }
+      },
+      "SUBCONTENT9": {
+        "TITLE": "<strong>9. Điều khoản chung:</strong>"
+      },
+      "SUBCONTENT10": {
+        "TITLE": "9.1. CUBHCM có toàn quyền từ chối trao quà tặng cho bất kỳ người tham gia nào mà CUBHCM cho là đã cung cấp thông tin không hợp lệ, không rõ ràng, không đầy đủ hoặc vi phạm bất kỳ điều khoản và điều kiện nào của Chương Trình khuyến mại."
+      },
+      "SUBCONTENT11": {
+        "TITLE": "9.2. Trường hợp có bất kỳ khoản phí, thuế nào phát sinh do việc nhận quà tặng khuyến mại từ Chương Trình khuyến mại này, người tham gia theo đây đồng ý chịu trách nhiệm tự kê khai và đóng các khoản phí, thuế nêu trên với cơ quan nhà nước có thẩm quyền (nếu có)."
+      },
+      "SUBCONTENT12": {
+        "TITLE": "9.3. Trong trường hợp xảy ra tranh chấp liên quan đến Chương Trình khuyến mại này, tranh chấp sẽ được giải quyết theo quy định pháp luật. CUBHCM được miễn trách nhiệm đối với các trường hợp thuộc sự kiện bất khả kháng hoặc các trường hợp khác theo quy định pháp luật."
+      },
+      "SUBCONTENT13": {
+        "TITLE": "9.4. Thể lệ này được đăng tải trên website của CUBHCM. Trong trường hợp có sự thay đổi, cập nhật về thể lệ Chương Trình, CUBHCM sẽ thông báo qua trang web <a class=\"linkText\"  href=\"https://www.vn.cathaybk.com/home\" target=\"_blank\">https://www.vn.cathaybk.com/home</a>."
+      },
+      "SUBCONTENT14": {
+        "TITLE": "9.5. Bằng việc tham gia Chương Trình, người tham gia cho phép CUBHCM sử dụng hình ảnh, thông tin, dữ liệu cá nhân của người tham gia cho mục đích xử lý dữ liệu liên quan đến hoạt động quảng cáo, tiếp thị, quảng bá thương hiệu, tổ chức trao giải/quà tặng (bao gồm cả việc chia sẻ dữ liệu cho bên thứ ba có hợp tác với CUBHCM) trên các phương tiện truyền thông mà không cần trả bất kỳ khoản phí nào. CUBHCM cam kết bảo vệ dữ liệu cá nhân, tuân thủ Chính Sách Về Quyền Riêng Tư và Thông báo về việc thu thập, xử lý và sử dụng dữ liệu cá nhân/thông tin của người tiêu dùng áp dụng cho khách hàng cá nhân của sản phẩm vay tiêu dùng trực tuyến tại Ngân hàng Cathay United Bank – Chi nhánh Thành phố Hồ Chí Minh được niêm yết trên website của CUBHCM, và các quy định pháp luật khác đang có hiệu lực áp dụng trong từng thời kỳ."
+      },
+      "SUBCONTENT15": {
+        "TITLE": "9.6. Các quà tặng không thể chuyển nhượng dưới bất kỳ hình thức nào."
+      },
+      "SUBCONTENT16": {
+        "TITLE": "9.7. Bằng việc tham gia Chương Trình khuyến mại này, người tham gia mặc định chấp thuận tất cả các điều khoản và điều Kiện của Chương Trình khuyến mại được liệt kê trên."
+      },
+      "SUBCONTENT17": {
+        "TITLE": "9.8. Mọi thắc mắc liên quan đến Chương Trình khuyến mại, người tham gia liên hệ với Phòng Dịch vụ khách hàng của CUBHCM – Điện thoại: 028 3622 6836 từ Thứ Hai đến Thứ Sáu (08:30 – 17:30), hoặc địa chỉ email:   <a class=\"linkText\"  href=\"mailto:contact.CUB@vn.cathaybk.com\">contact.CUB@vn.cathaybk.com</a>."
+      }
+    }
+  }
+},
+  "privacy": {
+    "TITLE": "CATHAY UNITED BANK – PRIVACY POLICY",
+    "DATE": "1st issuance on July 1st, 2024",
+    "TITLE_1": "<strong>1. Introduction</strong>",
+    "CONTENT_1": "From time to time, it is necessary for You to supply Cathay United Bank – Ho Chi Minh City Branch (the “<strong>Bank</strong>”) with “personal data” and/or “consumer information” (whichever is applicable) (as defined hereunder) of Yours and/or of individuals relating to You (including but not limited to information of your dependent, spouse, children and/or parents, friends, beneficiaries, attorneys, partners, emergency contacts, or other individuals) (hereinafter collectively called as “<strong>Personal Information</strong>”), either directly to the Bank or otherwise. The Bank also collects Personal Information of or about You from third parties, publicly available sources, information or data which has been publicized by You (including but not limited to social media platform, online website has publicized your data or information in accordance with laws and regulations), and in the ordinary course of the banking relationship between You and the Bank. The Bank’s collection, use, disclosure, process and/or transfer of such Personal Information shall be in accordance with this Privacy Policy (“<strong>Policy</strong>”), internal policies of the Bank and applicable laws and regulations. ",
+    "TITLE_2": "<strong>2. Definition</strong>",
+    "CONTENT_2": "Unless otherwise defined hereunder, capitalized words and terminologies in this Policy shall have the same meanings given to them in the RB PDPD Notification and CB PDPD Notification (as applicable):",
+    "CONTENT_2_1": "a) “<strong>Data Subject</strong>” refers to an individual to whom the data relates.",
+    "CONTENT_2_2": "b) “<strong>Consumer</strong>” means a person who purchases or uses products, goods and services to meet consumption or domestic needs of individuals, families or organizations and for non-commercial purposes.",
+    "CONTENT_2_3": "c) “<strong>consumer information</strong>” includes consumers' personal information, information about their process of purchasing and using products, goods and services and other information related to transactions between consumers and the Bank.",
+    "CONTENT_2_4": "d) “<strong>personal data</strong>” means data, information in the form of symbols, scripts, notebooks, images, sounds or similar forms in the electronic environment, whether true or not, attached to or about an individual (could be you or any individual relating to you, as the case maybe), from which that individual can be identified, or from that data and other information which the Bank has or is likely to have access to. The personal data includes general personal data and sensitive personal data. ",
+    "CONTENT_2_5": "e) “<strong>You</strong>” means <strong>individual or organization</strong> who may interact, propose to engage, inquire, and transact with the Bank whether they are old, current or potential customers of the Bank; and/or may use products, services of the Bank; and/or may sign letters, contracts, agreements or commitments with the Bank. To the extent of this Policy, “You” could be understood as (i) Data Subject; (ii) Consumer; and/or (iii) the party provide Personal Information of Data Subject to the Bank (including individual and/or organization). ",
+    "CONTENT_2_6": "f) “<strong>CB PDPD Notification</strong>” means the “Notification of the Collection, Processing and Use of personal data” which is announced and/or updated from time to time at the Bank’s website by the link: <a class=\"linkText\" target=\"_blank\" href=\"https://www.cathaybk.com.tw/OVSWS/Content/pdf/vn/hcmc/other-documents/Notification.pdf\">https://www.cathaybk.com.tw/OVSWS/Content/pdf/vn/hcmc/other-documents/Notification.pdf</a> (or such other link as maybe announced by the Bank from time to time).",
+    "CONTENT_2_7": "g) “<strong>RB PDPD Notification</strong>” means the “Notification of the Collection, Processing and Use of Personal Data/ Consumer Information of Digital Consumer Loan at Cathay United Bank – Ho Chi Minh City Branch” which is announced and/or updated from time to time at the Bank’s website by the link: <a class=\"linkText\" href=\"https://www.cathaybk.com.tw/OVSWS/Content/pdf/vn/hcmc/consumer-banking/Notification%20of%20The%20Collection%20Processing%20And%20Use_VN.pdf\">https://www.cathaybk.com.tw/OVSWS/Content/pdf/vn/hcmc/consumer-banking/Notification%20of%20The%20Collection%20Processing%20And%20Use_VN.pdf</a> (or such other link as maybe announced by the Bank from time to time).",
+    "TITLE_3": "3. The Bank’s Privacy Policy",
+    "TITLE_3_1": "If You are individual customer who uses the Digital Consumer loan product at the Bank.",
+    "TITLE_3_2": "If You are customer who uses other services, products (other than Digital Consumer loan product) at the Bank.",
+    "CONTENT_3_TITLE_1": "Purpose of information collection",
+    "CONTENT_3_TITLE_1_1": "The Bank, and the data processor that the Bank engages, may collect, use, disclose and process your Personal Information for the following purposes in connection with your relationship with the Bank or for the Bank’s business purposes:",
+    "CONTENT_3_CONTENT_1_1": "In accordance with Clause 3.1, Article 3 of the RB PDPD Notification.",
+    "CONTENT_3_CONTENT_1_2": "In accordance with Clause 3.1, Article 3 of the CB PDPD Notification.",
+    "CONTENT_3_TITLE_2": "Categories of Personal Information collected and processed",
+    "CONTENT_3_CONTENT_2_1": "In accordance with Clause 3.2, Article 3 of the RB PDPD Notification.",
+    "CONTENT_3_CONTENT_2_2": "In accordance with Clause 3.2, Article 3 of the CB PDPD Notification.",
+    "CONTENT_3_TITLE_3": "Duration and locations of processing, Users, mean of process, of Personal Information",
+    "CONTENT_3_CONTENT_3_1": "In accordance with Clause 3.3, Article 3 of the RB PDPD Notification.",
+    "CONTENT_3_CONTENT_3_2": "In accordance with Clause 3.3, Article 3 of the CB PDPD Notification.",
+    "CONTENT_3_TITLE_4": "Sources of Personal Information collected and processed",
+    "CONTENT_3_CONTENT_4_1": "In accordance with Article 4 of the RB PDPD Notification.",
+    "CONTENT_3_CONTENT_4_2": "In accordance with Article 4 of the CB PDPD Notification.",
+    "CONTENT_3_TITLE_5": "Your rights and obligations with regard to the Personal Information",
+    "CONTENT_3_CONTENT_5_1": "In accordance with Article 5 of the RB PDPD Notification.",
+    "CONTENT_3_CONTENT_5_2": "In accordance with Article 5 of the CB PDPD Notification.",
+    "CONTENT_3_TITLE_6": "Scope of information use",
+    "CONTENT_3_CONTENT_6_1": "(a) The Bank shall only use your Personal Information with the purposes mentioned in the Item No. 1 Article 3 of this Policy, after seeking your acceptance/consent via applicable methods designed by the Bank from time to time.",
+    "CONTENT_3_CONTENT_6_2": "(b) The Bank shall not purchase, sell, lease, your Personal Information to other groups or individuals, otherwise accepted by laws; and not disclose, share your Personal Information to any third party, once You express the rejection/objection clearly and such request must be verified by internal regulations of the Bank. The following lists the exceptional cases to this Policy where the Bank will always share your Personal Information to a third party or continuously use or process your Personal Information without your consent, or even when You withdraw the existing consent, or request the deletion of Personal Information:",
+    "CONTENT_3_CONTENT_6_2_1": "(i) to meet the loan conditions according to the provisions of law and internal regulations of the Bank;",
+    "CONTENT_3_CONTENT_6_2_2": "(ii) to provide documents proving the ability to fully meet loan conditions as prescribed by law, and other documents instructed by the Bank;",
+    "CONTENT_3_CONTENT_6_2_3": "(iii) to provide information on disbursement methods, coordinate with the Bank to carry out disbursement activities, and check disbursements with service providers;",
+    "CONTENT_3_CONTENT_6_2_4": "(iv) to sign and implement any agreement (including but not limited to conducting credit appraisal, providing necessary services for granting and managing the Bank’ product and service);",
+    "CONTENT_3_CONTENT_6_2_5": "(v) obligation to fully pay principal, and/or loan interest and fees related to lending activities (if any) as agreed; to coordinate with activities to support You in fulfilling loan payment obligations and debt collection;",
+    "CONTENT_3_CONTENT_6_2_6": "(vi) use loan capital for the right purpose; to provide and update information related to the use of loan capital and your ability to repay debt upon request from the Bank for purposes including but not limited to monitoring capital use; assess Your ability to make repayment; debt classification;",
+    "CONTENT_3_CONTENT_6_2_7": "(vii) to monitor, evaluate and control risks; loan termination; debt settlement; to implement your legal request (rescheduling the debt repayment period, early repayment);",
+    "CONTENT_3_CONTENT_6_2_8": "(viii) obligation to compensate for damage when You violates Your obligations under any agreement with the Bank; customer care, resolving your enqueries and complaints;",
+    "CONTENT_3_CONTENT_6_2_9": "(ix) to mortgage or transfer the Bank’s rights and obligations according to the provisions of agreement with You;",
+    "CONTENT_3_CONTENT_6_2_10": "(x) to provide, research and use information from Vietnam Credit Information Center (“CIC”) and other credit information companies, which are the Bank’ obligation once receive your loan application/request, no matter whether the Bank approve or extend the credit/loan to You or not;",
+    "CONTENT_3_CONTENT_6_2_11": "(xi) to implement your obligations related to storing, reporting according to the provision of law;",
+    "CONTENT_3_CONTENT_6_2_12": "(xii) to perform your other obligations, or to exercise the rights and obligations of the Bank as prescribed in agreement and relevant laws;",
+    "CONTENT_3_CONTENT_6_2_13": "(xiii) when You have provided your consent or authorization relating to the Personal Information processing by another consent with the Bank;",
+    "CONTENT_3_CONTENT_6_2_14": "(xiv) in urgent cases, it is necessary to immediately process relevant Personal Information to protect the life and health of Yours or others. The Bank and the third party shall be responsible for proving this case;",
+    "CONTENT_3_CONTENT_6_2_15": "(xv) the disclosure of Personal Information or use the public Personal Information shall comply with the law;",
+    "CONTENT_3_CONTENT_6_2_16": "(xvi) the processing of data of the competent state agencies in case of emergency on national defense, national security, social order and safety, major disasters, dangerous epidemics; or when there is a risk of threatening security and national defense but not to the extent of declaring a state of emergency; or in case of preventing and combating riots and terrorism, preventing and combating crimes and law violations in accordance with law;",
+    "CONTENT_3_CONTENT_6_2_17": "(xvii) to serve the activities of state agencies prescribed by specialized laws, when the authories have, through formal and legal procedures, demanded the providing of Personal Information. ",
+    "CONTENT_3_TITLE_7": "Information storage period",
+    "CONTENT_3_CONTENT_7": "The Bank and the third parties retain Personal Information supplied or collected for a period of time consistent with the Personal Information processing objectives and in accordance with the specificalized regulations relating to the storage responsibility applicable for major activities. The storage of Personal Information will be stored within the storage period prescribed by relevant laws that the Bank must comply with, in which your Personal Information is information that the Bank needs to store according to such regulations, including but not limited to storage obligations according to regulations on anti-money laundering, anti-terrorism, inspection, examination, supervision, independent or internal audit, accounting, electronic delivery, etc. For clarification, if the relevant legal regulations cannot determine the storage period but only refer to the Bank's storage obligations related to/composed by types of your Personal Information, the Bank may carry out storage indefinitely or another period of time at the Bank’s discretion, unless there are any instructions, directives, any actions, whether explicit or implicit, of state management agencies. Storage may be terminated at the Bank’s sole discretion when there are reasonable reasons to believe that the purpose of data collection is no longer fulfilled; and storage is no longer necessary for legal or business purposes.",
+    "CONTENT_3_TITLE_8": "Measures to protect information and ensure Personal Information safety",
+    "CONTENT_3_CONTENT_8": "The Bank provides secure information environments and establishes firewalls, encryption technologies, user identification systems (such as passwords and account settings), identity authentication/customer authentication solution at headquarters or through e-banking applications for request or transaction steps, and access control systems in order to manage the accessibility of personal information in the internal scope of usage the Bank. When the Bank shares or hires a third party to disclose, share, transfer, store, use, edit, update, or destroy your information, the Bank will ensure safety, information security, hiring a third party will be made in writing, clearly defining the scope and responsibility of each party in protecting your information in accordance with relevant laws. In case You conduct transactions through a third party, including but not limited to transferring loan balance payments, exchanging, publishing your personal information on social networks, etc. You understand that the third party is responsible for protecting your information.<br><br>The measures mentioned herein may be further enhanced and in this case the Bank will not need to notify You in advance and will update these Policy within a reasonable period of time. The above solutions are given on the basis of preventing the following acts:<br><br>(a) Stealing or illegally accessing information;<br><br>(b) Using information illegally;<br><br>(c) Unauthorized editing, updating, or destruction of information.<br><br>In case You discover that your information is likely to be stolen or illegally appropriated, You need to immediately notify the Bank via the hotline number <a class=\"linkText\" href=\"tel:+842836226836\">028.3622.6836</a> or via email: <a class=\"linkText\" href=\"mailto:contact.CUB@vn.cathaybk.com\" target=\"_blank\">contact.CUB@vn.cathaybk.com</a> to be received and resolved according to the Bank's order and procedures.",
+    "TITLE_4": "<strong>4. Update, Modification:</strong>",
+    "CONTENT_4": "This Policy may be revised from time to time by the Bank at its discretion. This Policy and the updated version of this Policy (if any) will be (i) posted in a visible location of the Bank’s location at 19th floor, Lim Tower 3, 29A Nguyen Dinh Chieu, Da Kao Ward, District 1, Ho Chi Minh City, Vietnam; and/or (ii) posted on the Bank’s website at <a class=\"linkText\" target=\"_blank\" href=\"https://www.cathaybk.com.tw/vn/hcmc/en/download/\">https://www.cathaybk.com.tw/vn/hcmc/en/download/</a> (or such other link as maybe announced by the Bank from time to time) and on CUB Vietnam Application; and/or (iii) notified to You by such means of communication deemed suitable by the Bank. You are advised to visit the Bank’s website, CUB Vietnam Application regularly to check this Policy and the updated version (if any) from time to time. "
+  }
+}
+

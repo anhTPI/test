@@ -10,7 +10,7 @@ import {
 } from '../models/components/language.mode';
 
 import { LocalStorageService } from './local-storage.service';
-import { LocalizeRouterService } from '@jemys89/ngx-translate-router';
+import { LocalizeRouterService } from '@gilsdav/ngx-translate-router';
 
 @Injectable({
   providedIn: 'root',
@@ -40,7 +40,6 @@ export class LanguageService {
     const lang = this._localStorageService.get(storage.LANG) || this._defaultLangCode;
 
     // this.setLang(lang);
-    console.log({test: this._localizeService.parser.defaultLang})
     this.setLang(this._localizeService.parser.defaultLang);
 
 

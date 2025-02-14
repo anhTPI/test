@@ -9,7 +9,7 @@ import {
   LocalizeRouterModule,
   LocalizeRouterSettings,
   ManualParserLoader,
- } from '@jemys89/ngx-translate-router';
+ } from '@gilsdav/ngx-translate-router';
   import { LocalizeRouterHttpLoader } from '@gilsdav/ngx-translate-router-http-loader';
 import { TranslateService } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';

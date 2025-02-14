@@ -11,7 +11,7 @@ import {
 } from '@angular/core';
 import { EventCard } from '@core/models/events-card.model';
 import { EventsCardService } from '@core/services/events-card.service';
-import { LocalizeRouterService } from '@jemys89/ngx-translate-router';
+import { LocalizeRouterService } from '@gilsdav/ngx-translate-router';
 import * as flickity from 'flickity';
 import { Subject, debounceTime } from 'rxjs';
 

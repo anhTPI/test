@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkindex=self.webpackChunkindex||[]).push([[592],{2236:(s,n,u)=>{u.d(n,{G:()=>l});let l=(()=>{class e{}return e.link_url="https://cubvn.onelink.me/13iZ/g3oplk57",e})()}}]);

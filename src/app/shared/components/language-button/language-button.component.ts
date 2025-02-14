@@ -1,8 +1,8 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { Observable, Subject, fromEvent, of, takeUntil, tap } from 'rxjs';
+import { Observable, Subject, fromEvent, map, of, switchMap, takeUntil, tap } from 'rxjs';
 import { LanguageService } from '@app/core/services/language.service';
 import { LanguageItem } from '@app/core/models/components/language.mode';
-import { LocalizeRouterService } from '@jemys89/ngx-translate-router';
+import { LocalizeRouterService } from '@gilsdav/ngx-translate-router';
 import { Router } from '@angular/router';
 // import { LocalizeRouterService } from '@gilsdav/ngx-translate-router';
 @Component({
@@ -21,7 +21,6 @@ export class LanguageButtonComponent implements OnInit, OnDestroy {
     private localizeService: LocalizeRouterService,
     private router: Router
   ) {
-    console.log(this.localizeService.parser.currentLang)
     // this.selectedLanguage = this._languageService.getLang();
     this._languageService.setLang(this._languageService.getLang());
   }
@@ -40,11 +39,10 @@ export class LanguageButtonComponent implements OnInit, OnDestroy {
 
   selectedLanguage(): void {
     this.langItems$.subscribe((values) => {
+      console.log({values})
       const selectLan = values.find(
         (item) => item.value === this.localizeService.parser.currentLang
-        // (item) => item.value === this._languageService.getLang()
       );
-      // console.log({selectLan})
 
       this.selectedLanguageValue = selectLan?.shortName || '';
     });
@@ -55,39 +53,26 @@ export class LanguageButtonComponent implements OnInit, OnDestroy {
   }
   currentUrl = ''
   onLanguageChange(lang: string): void {
-    if (this._languageService.getLang() === lang) return;
-    // if (this._languageService.getLang() === lang) return;
-    this.showOptions = false;
-    // const currentUrl = this.router.url; // Lấy URL hiện tại
-    // const translatedUrl = this.localizeService.translateRoute(currentUrl); // Dịch lại URL theo ngôn ngữ mới
-    // console.log("check2 ", currentUrl, this.router.url)
-
-    // this.router.navigateByUrl(translatedUrl);
-    // this.localizeService.changeLanguage(lang);
-    // // this.localizeService.translateRoute("/news/4")
-    if(this.router.url.split('/')[2] == 'events' || this.router.url.split('/')[2] == 'news'){
-
-      this.localizeService.routerEvents.subscribe((lang: string) => {
-        // console.log("check ", currentUrl, this.router.url)
-        this.router.navigateByUrl(
-         '/'+ lang+'/' + this.router.url.split('/')[2] + '/' + this.router.url.split('/')[3]
+    this.localizeService.routerEvents
+    .pipe(
+      switchMap((localize)=> this.langItems$.pipe(
+        map((values)=> [localize, values])
+      )),
+      tap(([localize,values]:any)=>{
+        const selectLan = values.find(
+          (item:any) => item.value === localize
         );
-      });
-    }
+
+        this.selectedLanguageValue = selectLan?.shortName || '';
+      })
+    )
+    .subscribe()
+
+    if (this._languageService.getLang() === lang) return;
+    this.showOptions = false;
+
+
     this.localizeService.changeLanguage(lang,{replaceUrl:true})
     this._languageService.setLang(lang)
-    // this._languageService
-    //   .setLang(lang)
-    //   .pipe(
-    //     tap(() => {
-    //       this.isLoading$.next(true);
-    //     }),
-    //     tap(()=>{
-
-    //     })
-    //   )
-    //   .subscribe(() => {
-    //     this.isLoading$.next(false);
-    //   });
   }
 }
