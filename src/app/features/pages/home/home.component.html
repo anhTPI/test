@@ -1,0 +1,95 @@
+<div class="h-full bg-90% md:bg-top-20 xl:bg-top-4 bg-no-repeat">
+  <div class="xl:flex justify-between">
+    <section
+      class="m-auto pl-8 md:pl-11 xl:pl-0 pt-[20px] md:pt-[40px] xl:pt-[119px] xl:w-[750px] xl:max-w-[800px] xl:h-[784px]">
+      <h2 class="text-3xl md:text-7xl xl:text-[54px] xl:ml-[50px] line-height-normal">{{ 'Home.TitleSmall' | translate
+        }}</h2>
+      <h2 class="font-bold text-3xl md:text-7xl xl:text-[54px] xl:ml-[50px] line-height-normal">{{ 'Home.TitleBig' |
+        translate }}</h2>
+      <div class="mt-9 hidden xl:flex xl:ml-[50px] justify-start items-center">
+        <img src="assets/image/common/action_coin.svg" alt="action_coin">
+        <div class="ml-10 text-center">
+          <p class="mb-2 font-bold">{{ 'Button.Download' | translate }}</p>
+          <app-download-app-button></app-download-app-button>
+        </div>
+      </div>
+    </section>
+    <!-- <app-alert class="z-30 hidden xl:block ml-[50px] mt-[565px] absolute"></app-alert> -->
+    <section
+      class="relative w-full pt-8 xl:pt-[100px] h-[500px] md:h-[700px] overflow-hidden xl:overflow-visible xl:flex-1">
+      <img class="absolute top-0 left-[-100px] md:left-[-250px] xl:left-[-150px] h-64 w-64 md:h-2/3 md:w-2/3"
+        src="assets/image/common/bg_green_blur.svg" alt="bg_green_blur">
+      <img
+        class="absolute bottom-0 xl:bottom-[-200px] right-[-100px] md:right-[-200px] xl:right-[60px] h-64 w-64 md:h-2/3 md:w-2/3"
+        src="assets/image/common/bg_yellow_blur.svg" alt="bg_yellow_blur">
+      <img class="home_nav_app mx-auto floating-element z-10 h-[400px] md:h-[550px] xl:h-[613px]" [src]="homeNavAppPng"
+        alt="home_nav_app">
+      <img class="absolute top-10 md:top-[80px] xl:top-[100px] deco w-16 md:w-32" src="assets/image/common/deco.svg"
+        alt="deco">
+    </section>
+    <div
+      class="top-[506px] md:top-[752px] xl:hidden absolute bottom-[-100px] md:bottom-[-100px] left-[10px] text-center md:left-[20px]">
+      <p class="font-bold text-xs mb-2">{{ 'Button.Download' | translate }}</p>
+      <app-download-app-button class="relative z-20"></app-download-app-button>
+      <!-- <div class="mr-auto w-[129px] h-[136px] flex justify-center overflow-hidden">
+        <img class="xl:mx-auto min-w-[210px] min-h-[210px]" src="assets/image/common/scroll.gif" alt="scroll">
+      </div> -->
+    </div>
+  </div>
+  <!-- <div class="mx-auto w-[129px] h-[136px] flex justify-center overflow-hidden">
+    <img class="xl:mx-auto min-w-[210px] min-h-[210px]" src="assets/image/common/scroll.gif" alt="scroll">
+  </div> -->
+  <div class="mx-auto">
+  <!-- <div class="mx-auto hidden xl:block"> -->
+    <img class="mx-auto w-[210px] h-[210px]" src="assets/image/common/scroll.gif" alt="scroll">
+  </div>
+  <section class="text-center mx-auto mt-[97px] md:mt-[127px] xl:mt-[100px]">
+    <div class="title">
+      <img class="title-img" src="assets/image/common/deco-g.svg" alt="deco-g">
+      <p class="font-bold md:text-2xl xl:text-3xl">{{'Home.TitlWhat'| translate }}</p>
+    </div>
+    <h3 class="text-2xl md:text-6xl xl:text-7xl font-bold whitespace-pre-line px-[30px] xl:mb-[50px]">
+      {{('Home.TitlWhatSub'| translate).split(",")[0] }}, <br/> <span>{{('Home.TitlWhatSub'| translate).split(",")[1] }}</span></h3>
+    <app-carousel></app-carousel>
+  </section>
+  <section class="mt-32 md:mt-[200px] xl:mt-[100px] md:pb-[50px] font-bold px-3 md:px-8 text-center">
+    <div class="px-4 md:pb-[50px]">
+      <div class="title">
+        <img class="title-img" src="assets/image/common/deco-g.svg" alt="deco-g">
+        <p class="font-bold md:text-2xl xl:text-3xl">{{'Home.TitlHow'| translate }}</p>
+      </div>
+      <h3 class="text-2xl md:text-6xl xl:text-7xl whitespace-pre-line line-height-normal">{{'Home.TitlHowSub'| translate
+        }}</h3>
+    </div>
+    <div
+      class="bg-white rounded-xl xl:rounded-[32px] mt-7 xl:mt-0 xl:w-[990px] shadow-custom-high p-[10px] md:p-0 xl:p-[30px] h-56 md:h-[404px] xl:h-[604px] mx-auto">
+      <iframe class="rounded xl:rounded-none" height="100%" width="100%" src="https://www.youtube.com/embed/LRpnnW5PIU4"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+  <section class="mt-20 md:mt-[100px] xl:pb-[50px] text-center px-3">
+    <div class="title relative">
+      <img class="title-img" src="assets/image/common/deco-g.svg" alt="deco-g">
+      <p class="font-bold px-4 mb-7 md:mb-[55px] md:text-2xl xl:text-3xl">{{'Home.TitlNews'| translate }}</p>
+    </div>
+    <!-- <div class="mb-4" *ngFor="let news of newsCard;">
+      <app-news-card [routerLink]="'/news/' + news.id" [date]="news.date" [title]="news.title" [slides]="newsCard"></app-news-card>
+    </div> -->
+    <app-news-card  [news]="newsCard"></app-news-card>
+
+  </section>
+  <section class="mt-20 md:mt-[100px] mb-[94px] md:mb-[150px] text-center">
+    <div class="title relative">
+      <img class="title-img" src="assets/image/common/deco-g.svg" alt="deco-g">
+      <p class="font-bold mb-7 md:mb-[50px] md:text-2xl xl:text-3xl">{{'Home.TitlEvents'| translate }}</p>
+    </div>
+    <app-events-card></app-events-card>
+  </section>
+  <section class="mt-[50px] mb-12 text-center" id="app-download-card">
+    <app-download-card></app-download-card>
+  </section>
+  <!-- <app-alert class="fixed inset-x-0 bottom-0 xl:hidden z-30 flex justify-center"></app-alert> -->
+</div>

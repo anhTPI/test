@@ -1,0 +1,220 @@
+<img
+  src="assets/image/common/product-line.svg"
+  class="product-bg-line-img"
+  alt="product-line"
+/>
+
+<div class="h-full bg-90% mb-[50px] xl:mb-24">
+  <div
+    class="title font-bold mt-12 md:mt-14 xl:mt-[100px] mx-4 md:ml-5 xl:ml-14 text-3xl md:text-5xl xl:text-8xl xl:w-[895px] relative"
+  >
+    <h2>
+      {{ "Product.Title1" | translate }}
+    </h2>
+    <h2 class="xl:ml-4">
+      {{ "Product.Title2" | translate }}
+    </h2>
+  </div>
+  <div
+    class="product-bg justify-center length:390px_79px] md:bg-[length:1119px_163px] xl:bg-[length:2028px_296px]"
+  >
+    <div class="product-bg-div relative">
+      <img
+        src="assets/image/common/bird.svg"
+        class="bird absolute w-[60px] xl:w-[100px]"
+        alt="bird"
+      />
+      <img
+        src="assets/image/common/bg_yellow_blur.svg"
+        class="product-action-bg absolute hidden xl:block"
+        alt="bird"
+      />
+      <img
+        src="assets/image/common/product-action.svg"
+        class="product-action w-[189px] md:w-60 ml-10 xl:w-[401px] xl:-mt-20"
+        alt="product-action"
+      />
+    </div>
+  </div>
+  <div
+    class="product-list flex overflow-x-auto overflow-y-clip w-full xl:w-[1440px] px-4 md:px-5 xl:px-0 h-full relative -mt-[95px] xl:-mt-[130px] xl:ml-[-20px] card-div pt-[20px] pb-[30px]"
+  >
+    <div class="flex flex-nowrap space-x-4 h-full text-center">
+      <ng-container *ngFor="let card of cardList; let cardI = index">
+        <!-- Card -->
+        <div
+          class="product-list-card w-[290px] xl:w-[453px] transition-transform duration-300 transform rounded-3xl group"
+        >
+          <div
+            class="product-list-img mx-auto bg-white rounded-full -mb-[77px] xl:-mb-[101px] z-20 relative xl:group-hover:-translate-y-4 transition-all ease-in-out duration-300"
+          >
+            <img [src]="card.image" alt="Image 1" />
+          </div>
+          <div
+            class="product-list-content bg-white rounded-[20px] min-h-[400px] xl:min-h-[600px] pt-20 md:pt-[78px] xl:pt-[110px] shadow-custom-bg z-10 relative overflow-hidden xl:group-hover:-translate-y-4 transition-all ease-in-out duration-300"
+          >
+            <div class="product-list-title" [ngClass]="{ 'is-vn': isVn }">
+              <h3
+                class="text-2xl xl:text-4xl font-bold"
+                [ngClass]="card.titleClass"
+              >
+                {{ card.title | translate }}
+              </h3>
+              <h3 class="text-2xl xl:text-4xl font-bold">
+                {{ card.subTitle | translate }}
+              </h3>
+            </div>
+
+            <ul class="text-left px-4 xl:px-[35px]">
+              <ng-container
+                *ngFor="let content of card.contentList; let contentI = index"
+              >
+                <li class="flex product-list-li justify-start">
+                  <img
+                    src="assets/image/icon/check.svg"
+                    class="mr-2"
+                    alt="check"
+                  />
+                  <ng-container
+                    *ngIf="cardI === 0 && contentI === 0; else defaultContent"
+                  >
+                    <div>
+                      <span class="product-list-li-text">
+                        {{ content | translate }}
+                      </span>
+                      <br />
+                      <span class="text-sm text-gray-400">{{
+                        "Product.Card1List1Note" | translate
+                      }}</span>
+                      <a
+                        href="assets/file/CUB consumer loan_Product Tariff.pdf"
+                        target="_blank"
+                        class="text-sm text-green-500"
+                      >
+                        {{ "Product.Card1List1NoteLink" | translate }}
+                      </a>
+                    </div>
+                  </ng-container>
+                  <ng-template #defaultContent
+                    ><span class="product-list-li-text">
+                      {{ content | translate }}
+                    </span>
+                  </ng-template>
+                </li>
+              </ng-container>
+            </ul>
+          </div>
+          <div
+            class="hidden xl:block w-full h-20 rounded-[20px] bg-lime-50 absolute bottom-0 z-0 transform translate-y-2 xl:translate-y-[10px] xl:group-hover:bg-lime-400 transition-all ease-in-out duration-300"
+          ></div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+  <div class="mt-[77.3px] xl:mt-[72.5px] text-center mx-auto">
+    <img
+      class="mx-auto w-[90px] xl:w-[141px] md:w-20"
+      src="assets/image/common/deco-g.svg"
+      alt="deco-g"
+    />
+    <div class="mt-2 mb-7 xl:mb-12">
+      <h3 class="xl:text-3xl font-bold">
+        {{ "Product.Card4Title" | translate }}
+      </h3>
+      <h3
+        class="text-3xl xl:text-7xl font-bold max-w-[318px] md:max-w-none mx-auto xl:mt-[30px]"
+      >
+        {{ "Product.Card4SubTitle" | translate }}
+      </h3>
+    </div>
+    <section
+      class="bg-images mx-4 xl:mx-0 xl:max-w-[1440px] text-left p-[20px] pt-[17.7px] xl:pt-[40px] xl:px-[172px] bg-white rounded-[32px] xl:rounded-[80px] overflow-hidden shadow-custom-bg"
+    >
+      <div
+        class="mb-0 xl:flex xl:justify-between flex-row-reverse items-center xl:mt-8"
+      >
+        <img
+          class="mx-auto w-[194px] md:w-40 xl:w-[326px] xl:mx-0"
+          src="assets/image/common/product-star.svg"
+          alt="product-star"
+        />
+        <ul
+          class="text-left mt-[2.3px] font-bold md:text-lg xl:text-2xl mx-auto xl:mx-0 max-w-[400px] md:max-w-[528px] xl:max-w-none"
+        >
+          <li
+            class="flex items-center justify-start py-[24px] md:py-[20px] xl:pl-[20px]"
+          >
+            <img
+              src="assets/image/icon/product-cake.svg"
+              class="w-[32px] mr-[12px]"
+              alt="check"
+            />
+            <span class="">
+              {{ "Product.Card4List1" | translate }}
+            </span>
+          </li>
+          <li class="flex items-center justify-start py-[20px] xl:pl-[20px]">
+            <img
+              src="assets/image/icon/product-man.svg"
+              class="w-[32px] mr-[12px]"
+              alt="check"
+            />
+            <span class="">
+              {{ "Product.Card4List2" | translate }}
+            </span>
+          </li>
+          <li
+            class="flex items-center justify-start py-[24px] md:py-[20px] xl:pl-[20px]"
+          >
+            <img
+              src="assets/image/icon/product-phone.svg"
+              class="w-[32px] mr-[12px]"
+              alt="check"
+            />
+            <span class="">
+              {{ "Product.Card4List3" | translate }}
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="px-[11.7px] pt-[50px] pb-[20px] md:px-0 xl:pt-[30px] xl:pl-[30.5px] max-w-[282.7px] md:max-w-[350px] xl:max-w-[942px] mx-auto xl:flex items-center justify-between"
+      >
+        <div>
+          <h5 class="md:text-2xl">
+            {{ "Button.Download" | translate }}
+          </h5>
+          <h5
+            class="font-bold text-lg md:text-4xl xl:text-6xl xl:whitespace-nowrap"
+          >
+            {{ "Common.APPName" | translate }}
+          </h5>
+        </div>
+        <div
+          class="flex space-x-2 md:space-x-4 mt-3 xl:mt-0 xl:ml-4 md:justify-center xl:mt-auto"
+        >
+          <button
+            type="button"
+            class="bg-transparent"
+            (click)="goDownload()"
+          >
+            <img src="assets/image/common/apple-app.svg" alt="apple-app" />
+            <h5 *ngIf="iosInfo">
+              {{ "APP.VERSION" | translate }}: v{{ iosInfo.versionNumber }}
+            </h5>
+          </button>
+          <button
+            type="button"
+            class="bg-transparent"
+            (click)="goDownload()"
+          >
+            <img src="assets/image/common/android-app.svg" alt="android-app" />
+            <h5 *ngIf="androidInfo">
+              {{ "APP.VERSION" | translate }}: v{{ androidInfo.versionNumber }}
+            </h5>
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

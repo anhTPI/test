@@ -1,0 +1,81 @@
+@media (min-width: 768px) {
+  .home-bg {
+    background-image: url("../../../../assets/image/common/bg_cub.svg");
+  }
+}
+.subContentTitle {
+  font-weight: 600;
+}
+.subContent {
+  font-size: 20px;
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  .termsTitle {
+    padding-left: 2em;
+  }
+}
+@media (max-width: 767px) {
+  .termsTitle {
+    padding-left: 1em;
+  }
+}
+.termsContent {
+  padding-top: 10px;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: bold;
+}
+.contentFontSize {
+  font-size: 20px;
+}
+.contentTitle {
+  font-size: 22px;
+}
+.subContentImg {
+  margin-top: 60px;
+  // display: flex;
+  justify-content: center;
+}
+.subSubTerm {
+  padding-left: 30px;
+}
+.linkText {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity)) !important;
+}
+.termImg {
+  width: 200px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.tdW400 {
+  width: 400px;
+}
+.tdW450 {
+  width: 450px;
+}
+.tdW250 {
+  width: 250px;
+}
+.textCenter {
+  text-align: center;
+}
+.textReight {
+  text-align: right;
+}
+
+.wordWrape {
+  word-wrap: break-word;
+}
+
+.tdData {
+  padding-left: 15px;
+}

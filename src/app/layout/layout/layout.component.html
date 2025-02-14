@@ -1,0 +1,13 @@
+<div
+  class="bg-gray-bg pt-4 mx-auto h-full font-montserrat bg-no-repeat bg-top-9 md:bg-center xl:bg-top-20 bg-contain overflow-hidden"
+  [ngClass]="{ 'bg-images' : showBackgroundImage, 'is-vn' : isVn}"
+>
+  <app-header></app-header>
+<!--  <main class="max-w-full mx-auto pt-16 md:pt-[80px] xl:pt-[100px] xl:px-5">-->
+  <main class="max-w-screen-xl mx-auto pt-16 md:pt-[80px] xl:pt-[100px] xl:px-5">
+    <div class="pt-1">
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+  <app-footer></app-footer>
+</div>

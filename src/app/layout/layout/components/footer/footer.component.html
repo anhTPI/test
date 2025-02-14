@@ -1,0 +1,125 @@
+<footer
+  class="bg-gray-900 relative z-[39] text-sm md:text-base w-full "
+>
+  <section class="grid grid-cols-1 md:grid-cols-5 gap-4 py-8 px-6">
+    <div class="logo col-span-5 md:col-span-1">
+      <img
+        class="inline-block"
+        src="assets/image/icon/ic_footer_logo.svg"
+        alt="footer-logo"
+      />
+    </div>
+
+    <!-- about,product,other-info -->
+    <div
+      class="col-span-5 mt-[64px] mb-[48px] md:my-0 min-[640px]:col-span-3 grid grid-cols-1 min-[640px]:grid-cols-3 gap-4"
+    >
+      <div class="about-us mb-[48px] md:my-0">
+        <h3 class="text-white font-bold text-base uppercase">
+          {{ "Footer.AboutUs" | translate }}
+        </h3>
+        <div
+          class="content-about text-[#888C8F] text-sm mt-4 flex flex-col gap-4"
+        >
+          <a [href]="urlCathayFinancialHoldings" target="_blank">{{
+            "Footer.CathayFinancialHoldings" | translate
+          }}</a>
+          <a [href]="urlCathayUnitedBank" target="_blank">{{
+            "Footer.CathayUnitedBank" | translate
+          }}</a>
+          <a [href]="urlCathayUnitedBankInVietnam" target="_blank">{{
+            "Footer.CathayUnitedBankInVietnam" | translate
+          }}</a>
+        </div>
+      </div>
+      <div class="product mb-[48px] md:my-0">
+        <h3 class="text-white font-bold text-base uppercase">
+          {{ "Footer.Product" | translate }}
+        </h3>
+        <div
+          class="content-product text-[#888C8F] text-sm mt-4 flex flex-col gap-4"
+        >
+          <a [href]="urlDigitalConsumerLoan" target="_blank">{{
+            "Footer.DigitalConsumerLoan" | translate
+          }}</a>
+        </div>
+      </div>
+      <div class="other-info">
+        <h3 class="text-white font-bold text-base uppercase">
+          {{ "Footer.OtherInfo" | translate }}
+        </h3>
+        <div
+          class="content-other text-[#888C8F] text-sm mt-4 flex flex-col gap-4"
+        >
+          <a [href]="urlPrivacyPolicy" target="_blank">{{
+            "Footer.PrivacyPolicy" | translate
+          }}</a>
+          <a [href]="urlFAQs" target="_blank">{{ "Footer.FAQs" | translate }}</a>
+        </div>
+      </div>
+    </div>
+    <!-- contract -->
+    <div class="contract col-span-5 md:col-span-1">
+      <h3 class="text-white font-bold text-base uppercase">
+        {{ "Footer.ContactUs" | translate }}
+      </h3>
+      <div
+        class="content-contact text-[#888C8F] text-sm mt-4 flex flex-col gap-4"
+      >
+        <div class="flex flex-col gap-1">
+          <p>{{ "Footer.Phone" | translate }}</p>
+          <a class="text-sm text-[#888C8F]" [href]="'tel:' + contactPhoneNumber">
+            {{ contactPhoneNumber }}</a
+          >
+        </div>
+        <div class="flex flex-col gap-1">
+          <span class="text-sm text-gray-300">
+            {{ "Footer.WorkingHour1" | translate }}</span
+          >
+          <span class="text-sm text-gray-300">
+            {{ "Footer.WorkingHour2" | translate }}</span
+          >
+          <span class="text-sm text-gray-300">
+            {{ "Footer.WorkingHour3" | translate }}</span
+          >
+        </div>
+        <div class="flex flex-col gap-1">
+          <p>{{ "Footer.Email" | translate }}</p>
+          <a [href]="'mailto:' + contactEmail" class="break-words">
+            {{ contactEmail }}
+          </a>
+        </div>
+        <div class="inline-flex gap-2">
+          <a
+            href="https://www.facebook.com/profile.php?id=61552399383144&mibextid=sCpJLy"
+            class="md:mr-0 group"
+          >
+            <p
+              class="bg-[url('assets/image/icon/ic_facebook.svg')] w-[30px] h-[30px] group-hover:bg-[url('assets/image/icon/ic_facebook_hover.svg')]"
+            ></p>
+          </a>
+          <a [href]="urlTiktok" target="_blank" class="md:mr-0 group">
+            <p
+              class="bg-[url('assets/image/icon/ic_tiktok.svg')] w-[30px] h-[30px] group-hover:bg-[url('assets/image/icon/ic_tiktok_hover.svg')]"
+            ></p>
+          </a>
+          <a [href]="urlZalo" target="_blank" class="md:mr-0 group">
+            <p
+              class="bg-[url('assets/image/icon/ic_zalo.svg')] w-[30px] h-[30px] group-hover:bg-[url('assets/image/icon/ic_zalo_hover.svg')]"
+            ></p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="border-t border-gray-600 w-full ">
+    <section class=" text-gray-300 text-sm py-6 xl:py-[24px] px-[20px] grid grid-cols-1 md:grid-cols-5 md:gap-4">
+      <p class="mb-4 md:mb-0 md:col-span-4">
+        {{ 'Footer.BrowserHint' | translate }}
+      </p>
+      <p class="md:col-span-1">
+        © Cathay United Bank All rights reserved.
+      </p>
+    </section>
+  </div>
+</footer>

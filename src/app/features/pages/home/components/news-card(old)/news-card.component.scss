@@ -1,0 +1,16 @@
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.section-hover:hover .arrow-transition svg {
+  animation: slideAnimation 1s ease-in-out infinite;
+}
+
+.fontTitle {
+  font-size: 22px;
+}

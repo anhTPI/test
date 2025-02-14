@@ -1,0 +1,36 @@
+.How-to-Get-start {
+  min-height: 19px;
+  flex-grow: 1;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.my-translated-paragraph {
+  white-space: pre-wrap;
+}
+
+@media (min-width: 768px) {
+  .How-to-Get-start {
+    min-height: 28px;
+    font-size: 18px;
+  }
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.linkText {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity)) !important;
+}
+
+.overflow {
+  overflow: auto;
+}

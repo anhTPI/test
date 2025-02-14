@@ -1,0 +1,105 @@
+variables:
+  DOCKER_HOST: 'tcp://docker:2375'
+  DOCKER_TLS_CERTDIR: ''
+  DOCKER_DRIVER: overlay2
+
+stages:
+  - pre-publish
+  - publish
+  - deploy
+  
+get-docker-password:
+  stage: pre-publish
+  image: google/cloud-sdk:alpine
+  script:
+    - echo "DOCKER_PASSWORD=$(gcloud auth print-access-token)" >> build.env
+    - cat build.env
+  artifacts:
+    reports:
+      dotenv: build.env
+  tags:
+    - "tpi-dind-runner"
+
+get-docker-password-cathay-sit:
+  stage: pre-publish
+  image: google/cloud-sdk:alpine
+  # rules:
+  #   - when: manual
+  script:
+    - echo "DOCKER_PASSWORD=$(gcloud auth print-access-token)" >> build.env
+    - cat build.env
+  artifacts:
+    reports:
+      dotenv: build.env
+  tags:
+    - cathay-sit-share-runner
+
+publish-images:
+  stage: publish
+  image: docker
+  services:
+    - docker:dind
+  script:
+    - export
+    - echo "${DOCKER_PASSWORD}" | docker login -u oauth2accesstoken --password-stdin asia.gcr.io
+    - apk add --no-cache bash git
+    - chmod -R 777 ./
+    - ls -all
+    - DEV_NEW_VERSION=$(./version.sh)
+    - echo "DEV_NEW_VERSION=${DEV_NEW_VERSION}" > dev_version.txt
+    - 'docker build -t "asia.gcr.io/aiot-vn-loancloud-dev-361802/official-web:${DEV_NEW_VERSION}" --build-arg BUILD_ENV=sit .'
+    - 'docker push "asia.gcr.io/aiot-vn-loancloud-dev-361802/official-web:${DEV_NEW_VERSION}"'
+  needs:
+    - job: get-docker-password
+      artifacts: true
+  artifacts:
+    reports:
+      dotenv: dev_version.txt
+  tags:
+    - "tpi-dind-runner"
+    
+publish-images-cathay-sit:
+  stage: publish
+  image: docker
+  services:
+    - docker:dind
+  script:
+    - export
+    - echo "${DOCKER_PASSWORD}" | docker login -u oauth2accesstoken --password-stdin asia.gcr.io
+    - apk add --no-cache bash git
+    - chmod -R 777 ./
+    - CATHAY_SIT_VERSION=$(./version.sh)
+    - echo "CATHAY_SIT_VERSION=${CATHAY_SIT_VERSION}" > cathay_sit_version.txt
+    - 'docker build -t "asia.gcr.io/vn-loancloudmvp-banking/official-web:${CATHAY_SIT_VERSION}" --build-arg BUILD_ENV=sit-cathaybk .'
+    - 'docker push "asia.gcr.io/vn-loancloudmvp-banking/official-web:${CATHAY_SIT_VERSION}"'
+  needs:
+    - job: get-docker-password-cathay-sit
+      artifacts: true
+  artifacts:
+    reports:
+      dotenv: cathay_sit_version.txt
+  tags:
+    - cathay-sit-share-runner
+
+trigger-deploy:
+  stage: deploy
+  trigger: devops/channel-asm-cd
+  needs:
+    - job: publish-images
+      artifacts: true
+  variables:
+    ARTIFACT: 'official-web'
+    VERSION: '${DEV_NEW_VERSION}'
+    ENV_RUNNER: 'TPI'
+
+trigger-deploy-cathay-sit:
+  stage: deploy
+  trigger: devops/channel-asm-cd
+  needs:
+    - job: publish-images-cathay-sit
+      artifacts: true
+  variables:
+    ARTIFACT: 'official-web'
+    VERSION: '${CATHAY_SIT_VERSION}'
+    ENV_RUNNER: 'CATHAY'
+

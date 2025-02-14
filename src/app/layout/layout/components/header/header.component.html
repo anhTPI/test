@@ -1,0 +1,24 @@
+<div class="header px-4 xl:px-5 fixed top-5 left-0 right-0 z-40 max-w-full mx-auto h-[60px] xl:h-[80px]"
+  [ngClass]="{'scrolled': isScrolled}">
+  <div
+    class="h-full xl:py-2.5 xl:px-[50px] md:pr-8 pl-5 pr-5 py-1 mx-auto flex items-center justify-between bg-white shadow rounded-full">
+    <h1>
+      <a routerLink="home"
+        class="inline-block h-[52px] lg:h-[80px] w-full bg-no-repeat bg-contain text-transparent "
+        [ngClass]="{ 'scrolled' : isScrolled }" style="background-image: url('assets/image/common/logo.svg');">
+        {{ 'Common.HeaderTitle' | translate }}
+      </a>
+    </h1>
+    <div class="items-center hidden md:flex">
+      <a [href]="urlAboutUs" class="hover:bg-gray-bg justify-center rounded-full px-3 grid place-content-center h-[44px]" target="_blank">{{ 'PageTitle.AboutUs' | translate }}</a>
+      <a [routerLink]="item.path" *ngFor="let item of routerItems;"
+        class="mx-[8px] px-3 flex h-[44px] items-center hover:bg-gray-bg rounded-full"
+        [ngClass]="{'active': item.path === currentPath}">
+        {{ item.name | translate }}
+      </a>
+      <app-faqtoggle-button></app-faqtoggle-button>
+      <app-language-button ></app-language-button>
+    </div>
+    <app-menu-button class="mr-[10px] md:hidden block" [routerItems]="routerItems"></app-menu-button>
+  </div>
+</div>

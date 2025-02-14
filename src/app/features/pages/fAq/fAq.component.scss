@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  .home-bg {
+    background-image: url('../../../../assets/image/common/bg_cub.svg');
+  }
+}
+
+.Frequently-Asked-Questions {
+  flex-grow: 0;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--gray-900);
+}
+
+@media (min-width: 768px) {
+  .Frequently-Asked-Questions {
+    font-size: 46px;
+  }
+}

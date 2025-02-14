@@ -1,0 +1,39 @@
+.bg-images {
+  background-image: url('../../../assets/image/common/carousel-bg.png');
+  background-position: right 0px top 1135px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media (min-width: 768px) {
+  .bg-images {
+    background-image: url('../../../assets/image/common/bg_cub.svg'), url('../../../assets/image/common/carousel-bg-pad.png');
+    background-position: right 20px top 360px, right 0px top 1795px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: calc(100% - 40px), 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .bg-images {
+    background-image: url('../../../assets/image/common/carousel-bg-desktop.png');
+    background-position: center top 1880px;
+    background-repeat: no-repeat;
+    background-size: 100% 780px;
+    &.is-vn {
+      background-position: center top 1950px;
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .bg-images {
+    background-image: url('../../../assets/image/common/carousel-bg-desktop.png');
+    background-position: center top 1880px;
+    background-repeat: no-repeat;
+    background-size: 100% 780px;
+    &.is-vn {
+      background-position: center top 1950px;
+    }
+  }
+}

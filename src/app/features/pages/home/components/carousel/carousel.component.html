@@ -1,0 +1,118 @@
+<div
+  class="mt-12 xl:pb-[50px] xl:mt-[50px] xl:flex justify-between items-center carousel-bg bg-no-repeat bg-left-15 md:bg-left-20 xl:bg-right-bottom"
+  (touchstart)="onTouchStart($event)"
+  (touchend)="onTouchEnd($event)"
+>
+<!--  <div-->
+<!--  class="mt-12 xl:pb-[50px] xl:px-[101px] xl:mt-[50px] xl:flex justify-between items-center carousel-bg bg-no-repeat bg-left-15 md:bg-left-20 xl:bg-right-bottom"-->
+<!--  (touchstart)="onTouchStart($event)"-->
+<!--  (touchend)="onTouchEnd($event)"-->
+<!--&gt;-->
+  <div class="relative h-20 md:h-32 flex justify-center items-center mb-4 xl:hidden">
+    <ng-container *ngFor="let action of actionImages; let i = index">
+      <img
+        class="transition-opacity duration-500 ease-in-out absolute opacity-0 mx-auto h-20 md:h-32"
+        [class.opacity-100]="i === currentSlide"
+        [src]="action"
+      >
+    </ng-container>
+  </div>
+  <app-arrow-button class="hidden xl:block" [size]="'L'" [disabled]="currentSlide === 0" (click)="previousSlide()"></app-arrow-button>
+  <div
+    class="relative h-[333px] md:h-[666px] xl:w-[500px] flex justify-center items-center"
+  >
+    <ng-container *ngFor="let slide of UIImages; let i = index">
+      <img
+        class="transition-opacity duration-500 delay-500 ease-in-out absolute opacity-0 mx-auto h-full xl:w-full"
+        [class.opacity-100]="i === currentSlide"
+        [src]="slide"
+      >
+    </ng-container>
+  </div>
+  <div class="flex justify-center pt-4 px-4 xl:hidden w-full">
+    <div class="flex justify-between items-center w-[644px] h-[110px] md:w-full">
+<!--    <div class="flex md:justify-between items-center w-[338px] h-[110px] md:w-full">-->
+      <app-arrow-button class="w-[44px]" [size]="arrowIconSize" [disabled]="currentSlide === 0" (click)="previousSlide()"></app-arrow-button>
+      <article class="relative min-w-[280px] w-[280px] md:max-lg:w-[644px] md:min-w-[648px] flex justify-center items-center overflow-hidden">
+        <ng-container *ngFor="let item of textList; let i = index">
+          <div *ngIf="i === currentSlide" [@fadeInUp]>
+            <h3 class="md:text-2xl text-green-500 mb-3 md:mb-4 line-height-normal">
+              {{ item.title | translate }}
+            </h3>
+            <p class="text-2xl md:text-5xl md:mb-2 line-height-normal">
+              {{ item.subTitle1 | translate }}
+              <span *ngIf="textList.length-1 == i" class="text-2xl md:text-6xl font-bold md:mb-2 line-height-normal">{{ 'Carousel.Title4Sub2' | translate }}</span>
+            </p>
+            <ng-container *ngIf="textList.length-1 != i">
+              <ng-container [ngTemplateOutlet]="item.customizeSubTitle2 ? item.customizeSubTitle2 : defaultSubTitle2"></ng-container>
+            </ng-container>
+
+            <ng-template #defaultSubTitle2>
+              <p class="text-[16px] md:text-2xl line-height-normal">
+                {{ item.subTitle2 | translate }}
+              </p>
+            </ng-template>
+          </div>
+        </ng-container>
+      </article>
+      <app-arrow-button class="w-[44px]" [size]="arrowIconSize" [direction]="'right'" [disabled]="currentSlide === 3"
+        (click)="nextSlide()"></app-arrow-button>
+    </div>
+  </div>
+  <div class="text-left xl:block hidden w-[666px]">
+<!--  <div class="text-left xl:block hidden w-[388px]">-->
+    <article class="relative md:w-full">
+      <ng-container *ngFor="let item of textList; let i = index">
+        <div *ngIf="i === currentSlide" [@fadeInUp] class="leading-6 pb-2.5">
+          <h3 class="text-2xl text-green-500 mb-3 md:mb-4">
+            {{ item.title | translate }}
+          </h3>
+          <p class="text-5xl font-medium" [class]="item.subTitle1Class">
+            {{ item.subTitle1 | translate }}
+            <span *ngIf="textList.length-1 == i" class="text-2xl md:text-6xl font-bold md:mb-2 line-height-normal">{{ 'Carousel.Title4Sub2' | translate }}</span>
+          </p>
+          <ng-container *ngIf="textList.length-1 != i">
+            <ng-container [ngTemplateOutlet]="item.customizeSubTitle2 ? item.customizeSubTitle2 : defaultSubTitle2"></ng-container>
+          </ng-container>
+          <ng-template #defaultSubTitle2>
+            <p class="text-2xl font-bold">
+              {{ item.subTitle2 | translate }}
+            </p>
+          </ng-template>
+        </div>
+      </ng-container>
+    </article>
+    <div class="relativeh h-20 md:h-32 xl:h-48 flex justify-start items-center mt-3 mb-4">
+      <ng-container *ngFor="let action of actionImages; let i = index">
+        <img
+          class="transition-opacity duration-500 delay-[1000ms] ease-in-out absolute opacity-0 mx-auto h-20 md:h-32 xl:h-48"
+          [class.opacity-100]="i === currentSlide"
+          [src]="action"
+        >
+      </ng-container>
+    </div>
+  </div>
+  <app-arrow-button class="hidden xl:block" [size]="'L'" [direction]="'right'" [disabled]="currentSlide === 3" (click)="nextSlide()"></app-arrow-button>
+</div>
+
+<ng-template #title1Sub2>
+  <div class="flex justify-center xl:justify-center">
+    <p class="cursor-pointer pt-[4px] xl:pt-4" (click)="clickIcon1()">
+      <img class="w-[24px] h-[24px] xl:w-[32px] xl:h-[32px]" src="assets/image/icon/ic_cub_action_others_24.svg" alt="info_icon">
+    </p>
+  </div>
+</ng-template>
+<ng-template #title4Sub2>
+  <p class="text-2xl md:text-6xl font-bold md:mb-2 line-height-normal">
+    {{ 'Carousel.Title4Sub2' | translate }}
+  </p>
+</ng-template>
+
+<app-alert #titleSub1Alert class="card1-app-alert-top fixed inset-x-0 z-40 flex justify-center" [enableBg]="true" [enableFooter]="false" [icon]="'assets/image/icon/ic_cub_action_others_24.svg'" [title]="'Alert.Info'">
+  <div alert-content class="flex-inline text-left mb-[12px] md:mb-0">
+    <span class="">{{ 'Carousel.Title1Sub1Note' | translate }}</span>
+    <a href="assets/file/CUB consumer loan_Product Tariff.pdf" target="_blank" class="text-green-500">
+      {{ 'Carousel.Title1Sub1NoteLink' | translate }}
+    </a>
+  </div>
+</app-alert>

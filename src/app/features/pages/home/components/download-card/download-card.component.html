@@ -1,0 +1,41 @@
+<div class="px-3 xl:px-0">
+  <section
+    class="bg-images flex items-end md:items-center justify-center md:justify-around xl:justify-center md:max-w-[728px] xl:max-w-[1400px] md:h-[200px] xl:h-[250px] mx-auto text-left px-8 py-5 md:py-0 bg-white rounded-[32px] xl:rounded-[80px] overflow-hidden shadow-custom-bg"
+  >
+    <div class="xl:mr-12">
+      <div>
+        <h5 class="md:text-2xl">
+          {{ "Button.Download" | translate }}
+        </h5>
+        <h5 class="font-bold text-lg md:text-4xl xl:text-6xl">
+          {{ "Common.APPName" | translate }}
+        </h5>
+      </div>
+      <div class="flex space-x-2 mt-3">
+        <button
+          type="button"
+          class="bg-transparent rounded-full"
+          (click)="goDownload()"
+        >
+          <img src="assets/image/common/apple-app.svg" alt="apple-app" />
+          <h5 *ngIf="iosInfo">
+            {{ "APP.VERSION" | translate }}: v{{ iosInfo.versionNumber }}
+          </h5>
+        </button>
+        <button
+          type="button"
+          class="bg-transparent rounded-full"
+          (click)="goDownload()"
+        >
+          <img src="assets/image/common/android-app.svg" alt="android-app" />
+          <h5 *ngIf="androidInfo">
+            {{ "APP.VERSION" | translate }}: v{{  androidInfo.versionNumber }}
+          </h5>
+        </button>
+      </div>
+    </div>
+    <div class="hidden md:inline-block">
+      <img src="assets/image/qr_code.png" alt="qrcode" class="qrImg" />
+    </div>
+  </section>
+</div>

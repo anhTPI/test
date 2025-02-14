@@ -1,0 +1,14 @@
+<div>
+  <button
+    type="button"
+    class="bg-white shadow-custom-bg rounded-2xl p-4 md:p-5 xl:p-[30px] hover:bg-gray-900"
+    (mouseenter)="currentImage = arrowDown"
+    (mouseleave)="currentImage = appImage"
+    (click)="goDownload()"
+  >
+    <img
+      [src]="currentImage"
+      alt="download-app"
+    >
+  </button>
+</div>

@@ -1,0 +1,71 @@
+<footer class="bg-gray-900 text-sm md:text-base flex flex-col items-center">
+  <section class="py-[30px] px-[20px] md:px-[30px] md:px-5 xl:py-8 xl:px-[20px] md:flex md:justify-between h-auto w-full md:w-[768px] xl:w-[1440px] max-w-[375px] md:max-w-[768px] xl:max-w-[1440px] text-white">
+    <div class="mb-[32px] xl:mb-0 xl:items-start">
+      <img
+        class="inline-block py-[10px] md:p-[10px] xl:px-0 xl:py-[12px] xl:inline-block xl:mb-0"
+        src="assets/image/common/footer_logo.svg" alt="footer-logo"
+      >
+      <!-- <ul class="md:h-full xl:h-[50px] xl:items-center xl:flex xl:ml-[50px]">
+        <ng-container *ngFor="let item of routerItems; let i = index">
+          <div *ngIf="i > 0" class="Line"></div>
+          <li
+            [routerLink]="item.path"
+            class="xl:text-center p-3 border-b border-gray-600 hover:font-bold active:font-bold md:border-hidden xl:border-solid xl:border-b-0 md:px-0 md:py-3 xl:px-[20px] xl:py-[12px] min-w-[280px] xl:min-w-[213px] cursor-pointer"
+          >
+            {{ item.name | translate }}
+          </li>
+        </ng-container>
+      </ul> -->
+    </div>
+    <div class="flex-column md:flex md:justify-between">
+      <div class="mb-[32px]">
+        <h3 class="mb-4 md:mb-[22px] font-bold md:pt-[12px]">
+          {{ 'Footer.FollowUs' | translate }}
+        </h3>
+        <div class="flex xl:justify-end">
+          <a href="https://www.facebook.com/profile.php?id=61552399383144&mibextid=sCpJLy" class="md:mr-0">
+            <img src="assets/image/icon/facebook.svg" alt="facebook_icon">
+          </a>
+          <!-- <a href="" class="p-[8px]">
+            <img src="assets/image/icon/youtube.svg" alt="youtube_icon">
+          </a> -->
+        </div>
+      </div>
+      <div class="hidden md:flex justify-center mx-[25px]">
+        <div class="h-full"></div>
+      </div>
+      <div class="break-words md:py-[12px] xl:pt-[12px] xl:pb-[24px]">
+        <h3 class="font-bold mb-6 md:mb-9 ">
+          {{ 'Footer.ContactUs' | translate }}
+        </h3>
+        <div class="mb-6" >
+          <span class="text-sm text-gray-300 "> {{ 'Footer.Phone' | translate }}</span>
+          <br/>
+          <a class="text-sm text-gray-300 " [href]="'tel:'+contactPhoneNumber">  {{ contactPhoneNumber }}</a>
+        </div>
+        <div class="mb-6">
+          <span class="text-sm text-gray-300 "> {{ 'Footer.WorkingHour1' | translate }}</span>
+          <br/>
+          <span class="text-sm text-gray-300 "> {{ 'Footer.WorkingHour2' | translate }}</span>
+          <br class="xl:hidden"/>
+          <span class="text-sm text-gray-300 "> {{ 'Footer.WorkingHour3' | translate }}</span>
+        </div>
+        <div>
+          <a [href]="'mailto:'+contactEmail">
+            {{ contactEmail }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="border-t border-gray-600 w-full flex justify-center">
+    <section class="xl:flex justify-around xl:justify-between text-gray-300 text-sm py-6 xl:py-[24px] px-[20px] md:px-[30px] md:w-[768px] xl:w-[1440px] max-w-[375px] md:max-w-[768px] xl:max-w-[1440px]">
+      <p class="mb-4 md:mb-0">
+        {{ 'Footer.BrowserHint' | translate }}
+      </p>
+      <p>
+        © Cathay United Bank All rights reserved.
+      </p>
+    </section>
+  </div>
+</footer>

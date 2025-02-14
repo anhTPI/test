@@ -1,0 +1,39 @@
+<div class="h-full bg-90% mx-4 ">
+  <h2 class="font-bold w-[340px] mt-12 mb-6 text-3xl md:ml-[10px] md:mb-[50px] md:mt-14 md:text-7xl md:w-[558px] xl:ml-[30px] xl:text-7xl xl:mt-[100px] xl:mb-12 xl:w-[558px] xl:px-0 ">
+    {{ 'PageTitle.ReferenceInformationAndTerms' | translate }}
+  </h2>
+  <div class="w-full max-w-md md:max-w-[500px] xl:max-w-5xl mx-auto font-roboto font-medium mb-14 xl:mb-24">
+    <h3 class="text-gray-600 text-lg mb-4">
+      {{ 'PageTitle.ReferenceContract' | translate }}
+    </h3>
+    <div class=" xl:flex flex-wrap items-center ">
+      <div class="bg-white rounded-2xl xl:w-[500px] xl:h-full mb-[20px]" [ngClass]="{'xl:mr-[20px]': i % 2 === 0}" *ngFor="let item of referenceContract; let i = index">
+        <button
+          class="w-full flex justify-between items-center text-left p-4 focus:outline-none xl:h-[84px]"
+          [routerLink]="['content' + '/' + item.pathName ]"
+        >
+          <div class="pr-4">
+            {{  item.title | translate }}
+          </div>
+          <img src="assets/image/icon/document.svg" class="xl:h-11 xl:w-11" alt="document">
+        </button>
+      </div>
+    </div>
+    <h3 class="text-gray-600 text-lg mb-4 mt-[30px]">
+      {{ 'PageTitle.Terms' | translate }}
+    </h3>
+    <div class="xl:flex flex-wrap items-center ">
+      <div class="bg-white rounded-2xl xl:w-[500px] xl:h-full mb-[20px]" [ngClass]="{'xl:mr-[20px]': i % 2 === 0}" *ngFor="let item of terms; let i = index">
+        <button
+          class="w-full flex justify-between items-center text-left p-4 focus:outline-none xl:h-[84px]"
+          [routerLink]="['content' + '/' + item.pathName ]"
+        >
+          <div class="pr-4">
+            {{  item.title | translate }}
+          </div>
+          <img src="assets/image/icon/document.svg" class="xl:h-11 xl:w-11" alt="document">
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,124 @@
+<div class="relative events md:pt-[30px] xl:pt-0 max-w-[1400px]">
+  <div
+    #carouselMD
+    class="main-carousel carouselMD carousel hidden md:block min-w-[768px]"
+    [ngClass]="{
+      'slides-3': slides.length >= 3,
+      'slides-2': slides.length === 2,
+      'slides-1': slides.length === 1
+    }"
+  >
+    <div
+      #carouselCellMD
+      class="carousel-cell"
+      *ngFor="let card of slides; let i = index"
+      [ngClass]="{
+        active: active === i && (slides.length === 1 || slides.length > 2),
+        'ml-0': slides.length === 1 || (slides.length === 2 && i === 0)
+      }"
+    >
+      <ng-container
+        *ngTemplateOutlet="
+          carouselItemMD;
+          context: { $implicit: card, index: i }
+        "
+      ></ng-container>
+    </div>
+  </div>
+
+  <div
+    #carouselSM
+    class="main-carousel carousel block md:hidden max-w-[767px]"
+    [ngClass]="{
+      'slides-3': slides.length >= 3,
+      'slides-2': slides.length === 2,
+      'slides-1': slides.length === 1
+    }"
+  >
+    <div
+      #carouselCellSM
+      class="carousel-cell"
+      *ngFor="let card of slides; let i = index"
+      [ngClass]="{
+        active: active === i && (slides.length === 1 || slides.length > 2),
+        'ml-0': slides.length === 1 || (slides.length === 2 && i === 0)
+      }"
+    >
+      <ng-container
+        *ngTemplateOutlet="
+          carouselItemSM;
+          context: { $implicit: card, index: i }
+        "
+      ></ng-container>
+    </div>
+  </div>
+</div>
+
+<ng-template #carouselItemSM let-card let-i="index">
+  <div class="event-card" [ngClass]="{ 'cursor-pointer': slides.length >= 3 }">
+    <img
+      [src]="card.image"
+      [alt]="'Image' + i"
+      class="w-full h-[200px] rounded-t-[20px] object-cover"
+    />
+    <div class="bg-white rounded-b-[20px] h-[210px]">
+      <div
+        class="h-[155px] p-4 bg-white rounded-2xl z-10 w-[260px] mx-auto -translate-y-[20px]"
+      >
+        <p
+          class="font-roboto font-medium text-left text18 line-clamp-3 md:line-clamp-4"
+        >
+          {{ card.title }}
+        </p>
+        <br />
+        <p
+          class="font-roboto font-medium text-left text-sm text-lg line-clamp-3 md:line-clamp-4 textLightGray"
+        >
+          {{ card.description }}
+        </p>
+        <button
+          class="bg-gray-900 w-full px-3.5 py-4 text-white rounded-2xl mt-[23px]"
+          [routerLink]="localize.translateRoute('/events/' + i)"
+        >
+          {{ "Common.EventButton" | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+<ng-template #carouselItemMD let-card let-i="index">
+  <div class="event-card" [ngClass]="{ 'cursor-pointer': slides.length >= 3 }">
+    <img
+      #carouselCellImageMD
+      [src]="card.image"
+      [alt]="'Image' + i"
+      class="w-full h-[267px] rounded-t-[32px] object-cover"
+      [ngClass]="{
+        'h-[352px]': active === i && (slides.length === 1 || slides.length > 2),
+        'xl:h-[352px]': slides.length < 3
+      }"
+    />
+    <div class="bg-white rounded-b-[32px] h-[300px] px-[20px]">
+      <div
+        class="h-[212px] p-[30px] bg-white rounded-2xl z-10 w-full mx-auto -translate-y-[30px]"
+      >
+        <p class="font-roboto font-medium text-left text24 line-clamp-4">
+          {{ card.title }}
+        </p>
+        <br />
+        <p
+          class="font-roboto font-medium text-left text-lg line-clamp-4 textLightGray"
+        >
+          {{ card.description }}
+        </p>
+        <button
+          class="bg-gray-900 w-full px-3.5 py-[14px] text-white rounded-2xl mt-[15.6px]"
+          [routerLink]="localize.translateRoute('/events/' + i)"
+        >
+          {{ "Common.EventButton" | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</ng-template>

@@ -1,0 +1,40 @@
+<div>
+  <div class="relative group text-left md:inline-block hidden py-4">
+    <div>
+      <button class="inline-flex w-full justify-center items-center gap-x-2 bg-transparent px-3 py-[6px] hover:bg-gray-bg rounded-full" id="menu-button" aria-expanded="true" aria-haspopup="true"
+      >
+        <img src="assets/image/icon/language-globle.svg" alt="language-globle">
+        {{ selectedLanguageValue }}
+        <p class="bg-[url('assets/image/icon/arrow-select.svg')] w-[20px] h-[20px] transition-transform duration-500 ease-in-out group-hover:rotate-180"></p>
+
+      </button>
+    </div>
+    <div
+      class=" invisible group-hover:visible absolute z-10 mt-2 rounded-2xl w-full text-center bg-white border-solid border bg-transparent py-1" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1"
+    >
+      <div
+        class="py-2 hover:bg-gray-bg m-3 rounded-2xl hover:font-semibold" role="none"
+        *ngFor="let item of langItems$ | async;"
+        [ngClass]="{'cursor-pointer' : selectedLanguageValue !== item.shortName, 'font-bold' : selectedLanguageValue === item.shortName }"
+        (click)="onLanguageChange(item.value)"
+      >
+        {{ item.shortName }}
+      </div>
+    </div>
+  </div>
+  <div class=" flex md:hidden divide-x divide-gray-700 text-gray-700 mx-auto justify-center items-center">
+    <div
+      class="flex items-center px-6 cursor-pointer"
+      *ngFor="let item of langItems$ | async;"
+      [ngClass]="{'text-gray-900' : selectedLanguageValue === item.shortName }"
+      (click)="onLanguageChange(item.value)"
+    >
+      <img src="assets/image/icon/language-globle.svg" class="mr-2" *ngIf="selectedLanguageValue === item.shortName" alt="language-globle">
+      <p>
+        {{ item.shortName }}
+      </p>
+    </div>
+  </div>
+</div>
+
+<app-loading-custom *ngIf="isLoading$ | async"/>

@@ -1,0 +1,46 @@
+<div class="w-full  relative">
+  <div
+    (click)="toggleSelect()"
+    class="relative flex items-center cursor-pointer px-[26px] py-[22px] bg-white w-full justify-between rounded-[30px]"
+  >
+    <p>{{ tabs[activeIndex].label | translate }}</p>
+    <button
+      type="button"
+      id="menu-button"
+      aria-expanded="true"
+      aria-haspopup="true"
+    >
+      <img src="assets/image/icon/menu.svg" alt="menu" />
+    </button>
+  </div>
+  <div
+    [@dropdownAnimation]="showOptions ? 'open' : 'closed'"
+    *ngIf="showOptions"
+    style="box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.08)"
+    class="absolute flex px-[26px] justify-between z-10 top-0 left-0 right-0 w-full bg-white rounded-[30px] bg-transparent py-1"
+  >
+    <div class="flex flex-col items-baseline py-2">
+      <ng-container *ngFor="let item of tabs; let i = index">
+        <button
+          (click)="selectTab(i)"
+          [ngClass]="{
+            'bg-[#1A1A1A] rounded-[100px] text-white': activeIndex == i
+          }"
+          class="py-[14px] text-left px-[18px]"
+        >
+          {{ item.label | translate }}
+        </button>
+      </ng-container>
+    </div>
+    <button
+      type="button"
+      id="menu-button"
+      aria-expanded="true"
+      aria-haspopup="true"
+      class="self-start pt-[18px]"
+      (click)="toggleSelect()"
+    >
+      <img src="assets/image/icon/menu.svg" alt="menu" />
+    </button>
+  </div>
+</div>

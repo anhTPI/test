@@ -1,0 +1,19 @@
+.card1-app-alert-top {
+  top: calc(50vh - 81px);
+}
+
+@media (min-width: 768px) {
+  .carousel-bg {
+    background-image: url('../../../../../../assets/image/common/bg_yellow_blur.svg');
+    background-size: 630px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .carousel-bg {
+    background-image: url('../../../../../../assets/image/common/bg_yellow_blur.svg');
+    background-position: left 120px bottom -20px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+  }
+}

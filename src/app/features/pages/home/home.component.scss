@@ -1,0 +1,48 @@
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+.floating-element {
+  animation: float 2s ease-in-out infinite;
+}
+
+.deco {
+  left: calc(100% / 2 + 5rem);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .title-img {
+    margin-bottom: 4px;
+    width: 100px;
+  }
+}
+
+@media(min-width: 768px) {
+  .title .title-img {
+    width: 150px;
+  }
+}
+@media(min-width: 1440px) {
+  .title .title-img {
+    width: 200px;
+  }
+}
+
+@media(max-width: 480px) {
+  .home_nav_app {
+    left: 0px;
+    min-width: 480px;
+    position: absolute;
+  }
+  .deco {
+    left: 300px;
+  }
+}

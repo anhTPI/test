@@ -1,0 +1,13 @@
+<div>
+  <button
+    type="button"
+    [disabled]="disabled"
+    class="bg-transparent rounded-full border-gray-900 disabled:cursor-not-allowed disabled:border-gray-300 p-[10px] xl:border xl:p-4"
+    [ngClass]="{'hover:bg-white hover:border-white': !disabled}"
+  >
+    <img class="w-[24px] h-[24px]"
+      [ngClass]="{'transform rotate-180': direction === 'left'}"
+      [src]="disabled ? 'assets/image/common/arrow_right_disabled.svg' : 'assets/image/common/arrow_right.svg'" alt="menu"
+    >
+  </button>
+</div>

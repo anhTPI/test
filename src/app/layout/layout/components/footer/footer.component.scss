@@ -1,0 +1,27 @@
+.Line {
+  display: none;
+  width: 1px;
+  // align-self: stretch;
+  flex-grow: 0;
+  // transform: rotate(-270deg);
+  background-color: rgb(255 255 255 / var(--tw-text-opacity));
+  height: 20px;
+}
+
+@media (min-width: 1440px) {
+  .Line {
+    display: block;
+  }
+}
+a{
+  width: fit-content;
+}
+@media (hover: hover) {
+  a:hover{
+    color: #F7F7F7;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 400ms;
+  }
+
+}

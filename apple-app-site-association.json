@@ -1,0 +1,17 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": [
+                    "UVS55ZQ2F5.com.cathayholdings.vdrf.chut",
+                    "FKMXDF57Y5.com.cathayholdings.vdrf.ut",
+                    "FKMXDF57Y5.com.cathayholdings.vdrf.stg",
+                    "FKMXDF57Y5.com.cathayholdings.vdrf.uat",
+                    "Y987QGLD49.com.cathayholdings.vdrf"
+                ],
+                "components": ["/momo/*"]
+            }
+        ]
+    }
+}

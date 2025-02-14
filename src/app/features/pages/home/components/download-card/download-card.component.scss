@@ -1,0 +1,30 @@
+.bg-images {
+  background-image: url("../../../../../../assets/image/common/bg_yellow_blur.svg"),
+    url("../../../../../../assets/image/common/bg_green_blur.svg");
+  background-position: left -60px bottom 40px, right -90px bottom -80px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 178px 178px, 178px 178px;
+}
+
+@media (min-width: 768px) {
+  .bg-images {
+    background-position: left -50px bottom 80px, right -50px bottom -80px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .bg-images {
+    background-position: left -150px bottom 50px, right -200px bottom -220px;
+    background-size: 429px;
+  }
+}
+
+.qrImg {
+  width: 200px;
+  height: 200px;
+}
+
+.appDownloadDiv {
+  position: relative;
+  bottom: -20px;
+}

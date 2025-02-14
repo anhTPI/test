@@ -1,0 +1,23 @@
+.fixed {
+  transition: height 0.2s ease, max-width 0.2s ease;
+}
+
+.active {
+  background-color: #d1d1d1;
+}
+
+.scrolled {
+  max-width: 100%;
+}
+
+@media (min-width: 1440px) {
+  .scrolled {
+    max-width: 1440px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .header {
+    height: 100px;
+  }
+}

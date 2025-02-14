@@ -1,0 +1,19 @@
+.not-found {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 360px;
+  height: 173px;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.not-found-text {
+  font-family: var(--font-family-notosans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-h1);
+  color: var(--gray-dark);
+}

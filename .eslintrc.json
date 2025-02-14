@@ -1,0 +1,334 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    ".angular/**/*",
+    "/documentation/**/*",
+    "/mock/**/*",
+    "/dist/**/*",
+    "/coverage/**/*"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.ts"
+      ],
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "project": [
+          "tsconfig.json"
+        ],
+        "createDefaultProgram": true
+      },
+      "plugins": [
+        "@typescript-eslint/eslint-plugin",
+        "eslint-plugin-tsdoc",
+        "sonarjs"
+      ],
+      "extends": [
+        "eslint:recommended",
+        "plugin:@angular-eslint/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@angular-eslint/template/process-inline-templates",
+        "plugin:rxjs/recommended",
+        "plugin:import/recommended",
+        "plugin:import/typescript",
+        "plugin:sonarjs/recommended",
+        "prettier"
+      ],
+      "rules": {
+        // common
+        "lines-between-class-members": [
+          "warn",
+          "always",
+          {
+            "exceptAfterSingleLine": false
+          }
+        ],
+        // 在 interface 無效
+        // "lines-around-comment": ["error", {
+        //     "allowBlockStart": true,
+        //     "allowObjectStart": true,
+        //     "allowClassStart": true ,
+        //     "beforeBlockComment": true
+        // }],
+        "eqeqeq": ["error", "smart"],
+        "spaced-comment": ["error", "always"],
+        "padding-line-between-statements": [
+          "error",
+          { "blankLine": "always", "prev": "*", "next": "return" },
+          { "blankLine": "always", "prev": ["const", "let", "var"], "next": "*"},
+          { "blankLine": "any", "prev": ["const", "let", "var"], "next": ["const", "let", "var"]}
+        ],
+        "operator-assignment": ["error", "always"],
+        "one-var": ["error", "never"],
+        "object-curly-newline": ["warn", {
+          "ObjectExpression": { "multiline": true, "minProperties": 1 },
+          "ObjectPattern": { "multiline": true },
+          "ImportDeclaration": { "multiline": true },
+          "ExportDeclaration": { "multiline": true, "minProperties": 3 }
+        }],
+        "no-else-return":"error",
+        "no-extra-bind":"error",
+        "no-implied-eval": "error",
+        "no-unneeded-ternary": "error",
+        "no-lone-blocks": "error",
+        "no-tabs": ["error"],
+        "no-multi-str": ["error"],
+        "no-new-object": "error",
+        "no-array-constructor": "error",
+        "no-use-before-define": "warn",
+        "no-return-assign": "error",
+        "func-names": ["error", "always"],
+        "array-callback-return": "error",
+        "dot-notation": ["error", { "allowKeywords": true }],
+        "multiline-comment-style": ["error", "separate-lines"],
+        "max-statements-per-line": ["error", { "max": 1 }],
+        "max-statements": ["error", 10],
+        "max-params": ["warn", 5],
+        "max-nested-callbacks": ["error", 2],
+        "max-depth": ["error", 3],
+        "max-len": ["warn",
+          {
+            "code": 120,
+            "ignoreComments": true,
+            "ignoreTrailingComments": true,
+            "ignoreUrls": true,
+            "ignoreStrings": true,
+            "ignoreTemplateLiterals": true
+          }
+        ],
+        "max-lines-per-function": ["warn", {"max": 50, "skipComments": true}],
+
+        // tsdoc/syntax
+        "tsdoc/syntax": "warn",
+
+        // @typescript-eslint
+        "@typescript-eslint/no-unused-vars": ["warn"],
+        "@typescript-eslint/no-explicit-any": ["error"],
+        "@typescript-eslint/no-shadow": ["error"],
+        "@typescript-eslint/explicit-module-boundary-types": ["warn"],
+        "@typescript-eslint/no-empty-function": [
+          "warn"
+        ],
+        "@typescript-eslint/member-ordering": [
+          "error",{
+          "default": {
+            "memberTypes": [
+               // Index signature
+              "signature",
+
+              // Fields
+              "public-static-field",
+              "protected-static-field",
+              "private-static-field",
+              "public-decorated-field",
+              "protected-decorated-field",
+              "private-decorated-field",
+              "public-instance-field",
+              "protected-instance-field",
+              "private-instance-field",
+              "public-abstract-field",
+              "protected-abstract-field",
+              "private-abstract-field",
+              "public-field",
+              "protected-field",
+              "private-field",
+              "static-field",
+              "instance-field",
+              "abstract-field",
+              "decorated-field",
+              "field",
+
+              // Constructors
+              "public-constructor",
+              "protected-constructor",
+              "private-constructor",
+              "constructor",
+
+              // Getters
+              "public-static-get",
+              "protected-static-get",
+              "private-static-get",
+              "public-decorated-get",
+              "protected-decorated-get",
+              "private-decorated-get",
+              "public-instance-get",
+              "protected-instance-get",
+              "private-instance-get",
+              "public-abstract-get",
+              "protected-abstract-get",
+              "private-abstract-get",
+              "public-get",
+              "protected-get",
+              "private-get",
+              "static-get",
+              "instance-get",
+              "abstract-get",
+              "decorated-get",
+              "get",
+
+               // Methods
+              "public-static-method",
+              "protected-static-method",
+              "private-static-method",
+              "public-decorated-method",
+              "protected-decorated-method",
+              "private-decorated-method",
+              "public-instance-method",
+              "protected-instance-method",
+              "private-instance-method",
+              "public-abstract-method",
+              "protected-abstract-method",
+              "private-abstract-method",
+              "public-method",
+              "protected-method",
+              "private-method",
+              "static-method",
+              "instance-method",
+              "abstract-method",
+              "decorated-method",
+              "method"
+            ],
+            "order": "as-written"
+          }}
+        ],
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {
+            "selector": "variable",
+            "format": ["camelCase"]
+          },
+          {
+            "selector": "function",
+            "format": ["camelCase"]
+          },
+          {
+            "selector": "parameter",
+            "format": ["camelCase"],
+            "leadingUnderscore": "allow"
+          },
+          {
+            "selector": "parameter",
+            "format": null,
+            "filter": {
+              "regex": "MSGID",
+              "match": true
+            }
+          },
+          {
+            "selector": "variable",
+            "modifiers": ["const"],
+            "format": ["camelCase", "PascalCase", "UPPER_CASE"]
+          },
+          {
+            "selector": "class",
+            "format": ["PascalCase"]
+          },
+          {
+            "selector": "classProperty",
+            "format": ["camelCase", "PascalCase", "UPPER_CASE"]
+          },
+          {
+            "selector": "classProperty",
+            "modifiers": ["readonly"],
+            "format": ["UPPER_CASE"]
+          },
+          {
+            "selector": "classProperty",
+            "modifiers": ["private"],
+            "format": ["camelCase"],
+            "leadingUnderscore": "require"
+          },
+          {
+            "selector": "classMethod",
+            "format": ["camelCase"]
+          },
+          {
+            "selector": "classMethod",
+            "modifiers": ["private"],
+            "format": ["camelCase"],
+            "leadingUnderscore": "require"
+          },
+          {
+            "selector": "interface",
+            "format": ["PascalCase"]
+          },
+          {
+            "selector": "typeAlias",
+            "format": ["PascalCase"]
+          },
+          {
+            "selector": "enum",
+            "format": ["PascalCase"]
+          },
+          {
+            "selector": "enumMember",
+            "format": ["camelCase","PascalCase"]
+          },
+          {
+            "selector": "memberLike",
+            "modifiers": ["private"],
+            "format": ["camelCase"],
+            "leadingUnderscore": "require"
+          }
+        ],
+
+        // import/order
+        "import/order": [
+          "warn",
+          {
+            "pathGroups": [
+              {
+                "pattern": "@src/**",
+                "group": "external",
+                "position": "after"
+              }
+            ],
+            "alphabetize": {
+              "order": "asc"
+            },
+            "newlines-between": "always"
+          }
+        ],
+
+        // @angular-eslint
+        "@angular-eslint/directive-selector": [
+          "error",
+          {
+            "type": "attribute",
+            "prefix": "app",
+            "style": "camelCase"
+          }
+        ],
+        "@angular-eslint/component-selector": [
+          "error",
+          {
+            "type": "element",
+            "prefix": "app",
+            "style": "kebab-case"
+          }
+        ],
+        "@angular-eslint/use-lifecycle-interface": "error",
+        "@angular-eslint/no-empty-lifecycle-method": [
+          "off"
+        ]
+
+      }
+    },
+    {
+      "files": [
+        "*.html"
+      ],
+      "extends": [
+        "plugin:@angular-eslint/template/recommended",
+        "prettier"
+      ],
+      "rules": {}
+    }
+  ],
+  "settings": {
+    "import/resolver": {
+      "typescript": {} // this loads <rootdir>/tsconfig.json to eslint
+    }
+  }
+}
